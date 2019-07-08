@@ -9,7 +9,7 @@ If you are someone who is aspiring to develop a career in Programming and need s
 
 
 1.Knowledge of using debugging tools
-
+ 
 2.Work on basics
 As it is true for any industry and any job, the conceptual understanding is the key for success. Unless one has strong conceptual foundation, you can never be a good programmer. The core conceptual understaning helps you in desiging and implementing the best solutions in the best possible way.
 
