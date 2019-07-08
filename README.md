@@ -8,6 +8,11 @@ How to become a good Programmer
 If you are someone who is aspiring to develop a career in Programming and need some guidance on building the relevant skills, then this article will help you a lot
 
 
+1.Take help of online platforms
+Codereview, github,codeavengers,codeschool,learnstreet,udacity
+
+1.Practice
+You have to devote a major time of your hours on practicing and writing codes. "Practice makes man perfect" and it completely true for a programmer
 1.Knowledge of using debugging tools
 A programmer should know how to debug any program which contains errors or malfunctions
 
@@ -22,8 +27,25 @@ The work of a Programmer is more a problem solver using exceptional programming 
 
 
 
-4.Learning and creating new everyday
+4.Learning and creating new everyday/think to build something new
 Any problem can be approached through many ways and there can be many solutions for a single problem, As a programmer your task is to find best one
+After learning programming you have to have a vision of building something new
+Programming is a practical and you can build a lot new applications and software from it. Carve out new ideas to build something new from your learning
+
+
+5.Understand concepts and do nor cram
+A good programmer understand the concepts in depth and do not just cram. It is true that there are some fundementals which you need to memorize but not the complete codes 
+
+
+6.Never stop after Failures!
+Never ever stop after your failures. No programming in the world did programming correctly on his first attempt.
+Successful programmers learn from their every mistake
+
+
+
+9.Start developing Passion
+People who are successful programmers love programming and they have a passion for it
+This passion won't only make you a good programmer but also make all your difficulties appears zero.
 
  
 2.Work on basics
