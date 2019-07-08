@@ -1,6 +1,6 @@
 Project Title
 ================================
-This repository contains Programming concepts, Logical programs  and scripts to automate tasks
+Programming: Programming is the act of writing programs, which are a sequence of instructions written using  a programming language to perform a specific task
 
 
 How to become a good Programmer
