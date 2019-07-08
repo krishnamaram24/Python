@@ -84,4 +84,13 @@ Reading and referring reliable and known open source code or your senior's code,
 Most of us having a common tendency of turning our heads towards forums or groups only when we need help. And again a clear separation between the good programmer and rest that the formers visit these places more often to help others. This makes them learn more than they learn getting thier problem solved by someone else. Within a team as well, help others to solve their problems. Believe me, understanding other's problem in their context, investigating on that and providing solutions; will have much more learned than before
 
 
+10.Share your Ideas and Knowledge
+
+To become good programmer/developer, once you have learned something , try to share your knowledge with others with writing blogs or teaching to someone or helping others
+
+"if you can't explain it simply, you don't understand it well enough
+
+11.Write Clean, Reuable, and Efficient Code
+Always try to write clean and efficient code with comments and proper documentation
+
 
