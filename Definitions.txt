@@ -1,0 +1,98 @@
+Programming 
+-------------
+Programming is the act of writing programs, which are a sequence of instructions written using  a programming language to perform a specific task
+
+Program
+--------
+Program is a sequence of instructions wriiten using a programming language o perform a specific task
+program is also called a software, which can range from two lines to millions of lines of instructions
+1.Sequence of instructions(Telling address)
+2.Programming language(Human language like english)
+to understand these terms, consider a situation when someone asks you about how to go to a nearby Hotel
+
+Programmer
+------------
+Someone who can write programs is called a programmer
+
+Programming language
+----------------------
+All Human Interface languages ahve several elements like Grammar, parts of speech 
+Like wise all Programming laguages are also made of several elements like
+1.Environment Setup
+2.Syntax
+3.Data types
+4.Variables
+5.Operators
+6.Constants
+7.Decition making statements
+8.Looping statements
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Compiler
+----------
+it takes your source code and converts it to a lower-level language that's either machine code or a bytecode. 
+Machine code or bytecode can run much faster than a language being interpreted, beacause the code is simpler and closer to the processor level
+Interpreter
+--------------
+It reads the source code one line at a time, parses it, executes it, and goes on to the next line 
+
+
+Algorithm
+------------
+A n algorithm is step-by-step procedure to resolve any problem. An algorithm is an effective method exressed as a finite set of well-defined instructions
+Thus a programmer lists down all the steps required to resolve a problem before writing the actual code.
+
+
+
+
+Module
+-------
+
+
+Package
+------
+
+
+
+Library
+--------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Testing
+-----------
+Manual
+Automated
