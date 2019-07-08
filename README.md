@@ -9,6 +9,22 @@ If you are someone who is aspiring to develop a career in Programming and need s
 
 
 1.Knowledge of using debugging tools
+A programmer should know how to debug any program which contains errors or malfunctions
+
+2.Problem solving
+The work of a Programmer is more a problem solver using exceptional programming skills
+
+3.Required patience
+=>Patience will be required by you in terms of listening to the various business problems on various projects
+=>Your business team may not be very technical to elaborate you everything, you need patience to listen to them and understand the major issues and challenges
+=>Sometimes you need to present your solutions to them which is again a difficult task of making them understand of various technical things you have done in your work.
+
+
+
+
+4.Learning and creating new everyday
+Any problem can be approached through many ways and there can be many solutions for a single problem, As a programmer your task is to find best one
+
  
 2.Work on basics
 As it is true for any industry and any job, the conceptual understanding is the key for success. Unless one has strong conceptual foundation, you can never be a good programmer. The core conceptual understaning helps you in desiging and implementing the best solutions in the best possible way.
