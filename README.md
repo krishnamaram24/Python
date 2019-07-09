@@ -40,7 +40,7 @@ How to become a good Programmer
 
 17.Share your Ideas and Knowledge
 
-18.Write Clean, Reuable, and Efficient Code
+18.Write Clean, Reusable, and Efficient Code
 
 
 
