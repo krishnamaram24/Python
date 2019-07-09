@@ -10,21 +10,20 @@ All Human Interface languages have several elements like Grammar, parts of speec
 
 Like wise all Programming laguages are also made of several elements like
 
-1.Environment Setup
 
-2.Syntax
+1.Syntax
 
-3.Data types
+2.Data types
 
-4.Variables
+3.Variables
 
-5.Operators
+4.Operators
 
-6.Constants
+5.Constants
 
-7.Decition making statements
+6.Decition making statements
 
-8.Looping statements
+7.Looping statements
 
 How to become a good Programmer
 =================================
