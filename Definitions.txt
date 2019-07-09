@@ -16,7 +16,7 @@ Someone who can write programs is called a programmer
 
 Programming language
 ----------------------
-All Human Interface languages ahve several elements like Grammar, parts of speech 
+All Human Interface languages have several elements like Grammar, parts of speech 
 Like wise all Programming laguages are also made of several elements like
 1.Environment Setup
 2.Syntax
