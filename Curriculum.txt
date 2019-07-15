@@ -1,3 +1,41 @@
-Comments
 
-1.Environment Setup
+
+Curriclulum
+---------------
+1.comments
+2.environment setup
+1.History
+2.Identifiers
+3.Reserved Words
+4.Data types
+5.Variables
+6.Operators
+7.Constants
+8.Input and Output Statements
+9.Strings
+10.List Data Structure
+11.Tuple Data structure
+12.Set data structure
+13.Dictionary data structure
+14.Flow control(conditional stmts,ietrative stmts)
+15.Modules
+16.Packages
+17.File handling(xls,csv,json,xml)
+18.Command Line Arguments
+19.Functions
+20.Exception handling
+21.OOPS	
+22.Regular expressions
+23.Multi threading
+24.Socket programming
+25.Data structures
+26.Algorithms
+27.Design Patterns
+28.PDBC(Python Data Base Connectivity)
+29.Python for Web Apps
+30.Python for Data Science
+
+
+
+
+
