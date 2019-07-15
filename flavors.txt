@@ -1,8 +1,7 @@
-#################################### Flavors of Python ######################################
-1.CPython
-2.JPython(Jython)
-3.IronPython
+1.CPython(it can be used to work with C language applications)
+2.JPython(Jython)(it is for java applications)
+3.IronPython(for .Net applications)
 4.PyPy(for improving performance)(Inside Python Virtual Machine(PVM)=> JIT compiler is there)
-5.RubyPython
-6.AnakondaPython(to handle Big Data)
+5.RubyPython(for Ruby platforms)
+6.AnakondaPython(it is specially designed for handling large volume of data processing like Big Data)
 7.Stackless(Python for concurrency(for multi threading concept))

@@ -1,4 +1,3 @@
-################################# Python Versions ############################################
 Python 1.0 introduced in January 1994
 Python 2.0 introduced in October 2000
 Python 3.0 introduced in December2008

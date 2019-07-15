@@ -1,4 +1,3 @@
-##################################### Limitations #################################################3
 1.Performance wise it is not upto mark because it is interpreted programming language(interpretor can see
 only one line at a time)
 2.It is not frequently used for Mobile applications
