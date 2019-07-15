@@ -1,14 +1,12 @@
 Project Title
 ================================
-This Project implemeted to guide how to improve Pogramming Skills
+This Project implemeted to guide how to improve Computer language Skills
 
-Programming 
-=================================
-Programming is the act of writing programs, which are a sequence of instructions written using  a programming language to perform a specific task
+
 
 All Human Interface languages have several elements like Grammar, parts of speech 
 
-Like wise all Programming laguages are also made of several elements like
+Like wise all computer  laguages are also made of several elements like
 
 
 1.Syntax
