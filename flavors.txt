@@ -1,0 +1,8 @@
+#################################### Flavors of Python ######################################
+1.CPython
+2.JPython(Jython)
+3.IronPython
+4.PyPy(for improving performance)(Inside Python Virtual Machine(PVM)=> JIT compiler is there)
+5.RubyPython
+6.AnakondaPython(to handle Big Data)
+7.Stackless(Python for concurrency(for multi threading concept))

@@ -1,0 +1,42 @@
+=> Python is a general purpose high level programming language
+ general purpose=> means we can use for multiple purposes like we can develop 
+ Data Science applications, Machine learning, web applications, IOT applications
+ high level=> means human understandable language
+ ex: for i in range(10):
+    print(i)
+=> Python is  Dynamically Typed Programming Language
+>>> a= 10
+>>> type(a)
+>>> a= True
+>>> type(a)
+(like C, Java Statically Typed programming languages int a = 10)
+=> Simple and easy to learn
+ex: for i in range(10):
+    print(i)
+=> Free ware(means we are not pay for licence) and open source(we can able to see source code implementation)
+=>Platform independent
+write once and run any where(WORA)
+=>Portability
+Migrating Python program from one platform(windows machine) to another platform(Linux machine) without 
+performing any change is nothing but portability
+=>Both procedure oriented and object oriented
+=> Interpreted programming language(need not require compilation)
+Internally python interpretor take care that compilation
+if compilation fails then interpretor raised syntax error
+if compilation success then only python virtual machine is the responsible to execute 
+python interpretor check syntax line by line
+=> Extensible programming language
+we can use some other languages(C, Java, C#) code in Python to improve performance of the application but there
+may be a chance to loose platform indepoendent feature
+we have some code in java(1Lack lines of code)
+we can improve performance of the application
+=> Embedded programming language
+python is compatible to work with other languages
+we can use python program in other programming languages
+=>Extensive Library Support
+from random import randint
+for i in range(10):
+   print(randint(0,9),randint(0,9),randint(0,9),randint(0,9),randint(0,9),randint(0,9),sep='')
+
+
+

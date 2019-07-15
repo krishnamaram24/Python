@@ -1,0 +1,11 @@
+############################# Benefits/use cases ####################################3
+1.Desktop/Stand alone applications
+2.Web applications(DJango, Flask)
+3.Database applications
+4.Networking applications
+5.Games
+6.Data Analysis(Data Science)
+7.Machine Learning applications
+8.AI applications
+9.IOT applications
+10.Python used by Google, Youtube, NASA, Dropbox

@@ -1,0 +1,11 @@
+################################### History ++++++++++++++++++++++
+=>Guido Van Rossam
+=>developed in 1989 at working at National Reasearch Institute in Netherland
+=>officiallY published in 1991 Feb 20th
+=> Popular TV show in BBC = Monty Python's Circus (popular in 1969 to 1974)
+=> inheritted all features from other programming languages
+Functional programming/procedural programming  from C
+OOP from C++
+Scripting language features from Perl, and shell scripts
+Modular programming features from Modula-3
+most of the Syntaxes borrowed from C and ABC languages

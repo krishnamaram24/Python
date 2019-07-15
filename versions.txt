@@ -1,0 +1,9 @@
+################################# Python Versions ############################################
+Python 1.0 introduced in January 1994
+Python 2.0 introduced in October 2000
+Python 3.0 introduced in December2008
+Any new version should provide support for old version programs(it is general in software development) but 
+python3 not supported for python2
+for example
+python2: print "hello", long data type is there
+python3: print ("Hello), long data type is not there)
