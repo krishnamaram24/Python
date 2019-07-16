@@ -1,0 +1,12 @@
+Official website for Python
+https://www.python.org/
+
+Package management Software
+https://pip.pypa.io/en/stable/
+
+Repository for Python Packages
+https://pypi.org/
+
+
+Articles for how to improve computer language skills
+https://dzone.com/articles/10-effective-ways-become-good

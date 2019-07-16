@@ -1,11 +1,5 @@
-
-
 How to become a good programmer
 -------------------------------
-https://dzone.com/articles/10-effective-ways-become-good
-
-
-
 If you are someone who is aspiring to develop a career in Programming and need some guidance on building the relevant skills, then this article will help you a lot
 1.Take help of online platforms
 Codereview, github,codeavengers,codeschool,learnstreet,udacity, stackoverflow
