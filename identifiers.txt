@@ -1,0 +1,30 @@
+######################################## Identifiers ##################################
+A name in python program is called Identifier
+name => variable name, class name, method name
+ex: 
+x = 10
+def f1():
+    pass
+class Test(Exception):
+Rules to define identifier in Python:
+1.alphabet symbols(both upper and lower case letters)
+digits(0-9)
+underscore(_)
+cash = 10(valid)
+ca$h = 10(in valid)
+2.identifer should not start with digit
+total123 = 10(valid)
+123total = 10(invalid)
+3.python identifiers are case sensive
+total = 10
+TOTAL = 10
+4.Reserved words are not allowed as identifier
+x = 10
+if = 20
+4.there is no length limit for python identifer but nor recommended lenghthy identifiers
+x = 10(recommended)
+5.if identifier starts with underscore(_) symbolt then it indicates private
+_ => private
+__=> strongly private
+__identifier__ => language specific identifier(if identifier starts with and ends with double underscore ) ex=> __main__
+yyyyyyyyy = 10(not recommended)

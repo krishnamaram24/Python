@@ -1,0 +1,117 @@
+Operator:
+
+Types of operators:
+1.Arithmetic operators
+2.Relational operaots or comparison operators
+3.Logical operators
+4.Bitwise operators
+5.Assignment operators
+6.Special operators
+
+1.Arithmetic  Operators(+,-,*,/,%,//,**)
++=>Addition
+-=>subtraction
+*=>multiplication
+/=>division(result is always floot value only)
+%=>modulo
+//=>floor(floor means before nearest number or nearest integer value in float style) division(result is floor or int values)=>a=10.5 b=2 then a/b=5.25 and a//b=5.0
+**=>power or exponent
+Example:
+a=10
+b=2
+print("a+b",a+b)=>12
+print("a-b",a-b)=>8
+print("a*b",a*b)=>20
+print("a/b",a/b)=>5.0
+print("a%b",a%b)=>0
+print("a//b",a//b)=>5
+print("a**b",a**b)=>100
+Note:
+/=>float
+//=>int or float
+if both arguments are int==>int
+if both arrguments are float=>float
+
+2.Relational Operators(>,<,>=,<=,==,!=)
+>,>=,<,<=
+A=>65
+a=>97
+ex:
+a=10
+b=20
+print"a>b is",a>b)=>False
+we can apply relational operaotrs in string type also
+a='durga'
+b='darga'
+print("a>b is",a>b)=>False
+a=True(1)
+b=False(0)
+print(a>b)=True
+Note:
+chaining of relational operators is possible 
+print(10>20>30>40)
+Equality operators: ==,!=
+10==20=>F
+10!=20=>T
+
+3.Logical Operators(or,and,not)
+or,and,not
+x and y:
+if x is evaluates to False then return x otherwise returns y
+ex:
+0 and 100 =>0
+2 and 100=> 100
+x or y:
+if x is evaluates to True then return x otherwise returns y
+ex:
+0 and 100 =>100
+2 and 100=> 2
+
+not x:
+not 10=>False
+
+
+
+
+4.Bitwise operators(&,|,^,~,<<,>>)
+ ==> applicable only for int and boolean
+
+
+
+5.Assignment Operators(=,+=,?:)
+
+
+
+
+
+6.Special operators(is,in)
+Identity operators(is)
+a=10
+b=10
+print(a is b)
+Membership operators(in)
+list = [1,2,3]
+print(1 in list)
+
+
+
+
+Operator precedence
+--------------------
+()
+
+
+
+
+
+
+
+Unary operatos(one argument)~
+Binary operator(two arguments) x+y
+Ternary operator(three arguments)
+
+
+
+
+
+

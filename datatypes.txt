@@ -1,0 +1,371 @@
+################################################# Data Types(built-in data types) ###########################################
+>>>type(variable)=> to know type of Data
+=>in Python there are 14 in-built data Types
+int(2)
+float(2.0)
+complex(2+3j)
+bool
+str
+bytes
+bytearray
+range(to represent range of members)
+list(group or list of values)
+tuple(list of values)
+set(list of values without duplicates)
+frozenset
+dict(key value pairs)
+
+=>int,float,complex,bool,str are called fundemental/standard/built-in data types 
+=>list,tuple,set,frozenset,dict,bytes,bytearray,range are mostly sequence/collection related things
+None############################################################1.int####################################33
+we can represent integers in four ways
+a.decimal form
+b.binary form
+c.octal form
+d.hexa decimal
+a.decimal form(base-10)
+range: 0 to 9
+ex: a = 9827
+b.Binary form(base-2)
+range:0 and 1
+ex: a=1111(default consider it as decimal)
+    a=0b1111(now consider it as binary)
+    or 
+    a=0B1111
+    a=-0b1111
+c.Octal form
+range: 0 to 7
+ex: a=777(default it consider as decimal)
+    a=0o777
+    a=0O777
+d.Hexa decimal(Base-16)
+range: 0 to 9, a to f or A to F(here python is not case sensitive)
+ex: 0xFace or 0XFace
+
+conclusion:
+input
+a=10
+b=0b10
+c=0o10
+d=0x10
+but always print in decimal form
+=>
+Note: in Python everything is object, so there is no concepts like size, range, max,min for python data types
+ex: int a=10(4 bytes in java)
+    a=10(dynamically assigned size in Python)
+=> base conversions:
+bin()
+oct()
+hex()
+#####################################################2.float##############################################
+>>>a = 1.0
+>>>type(a)
+=> we can specify float value only in decimal form
+f = 1111(allowed)
+f = ob1111(not allowed)
+f = 0o1234(not allowed)
+f = 0X12Fa(not allowed)
+f =1.2e3(exponential form is allowed)
+#####################################################3.complex##############################################
+=> a+bj
+=>x = 10+20j
+=>type(x)
+real part = any decimal,binary,octal, hexa
+imaginary part = should be decimal only
+>>>a=1+2j
+>>>b=3+4j
+>>>a+b
+>>>a.real
+>>>a.imag
+#####################################################4.bool##############################################
+True,False
+True=1, False=0
+>>>a=True
+>>>type(a)
+a=10
+b=20
+c=a<b
+>>>a
+>>>True+False =1
+>>>True/False= ZeroDivisionError
+>>>True/True=1.0
+#####################################################5.str##############################################
+signle quote,double quotes,triple quotes(used for multi line string literals)
+a = krishna(not acceptable=> show be within single quote or in double quotes)
+a = '''krishna'''
+a = "krishna"
+a = 'krishna'(recommended)
+a = '''krishna
+    maram'''(for multi line string)
+a = ''' krishna is done "Python" courses'''
+
+slice OPERATOR
+----------------
+slice means=> piece or substring
+=>in Python index start from 0 only
+=>in Python there are 1.positive index(left to right) 2.negative index(right to left)
+ex:
+s = 'krish'
+k=0,-5
+r=1,-4
+i=2,-3
+s=3,-2
+h=4,-1
+s[begin:end:step]
+returns substring from begin index to end - 1 index
+s[1:4]=>ris
+s[0:]=>krish=>here end is optional
+s[:4]=>kris=>begin to end - 1
+s[:]
+s[1:100]=>here no IndexError
+s[0:4:2]
+repetition OPERATOR
+----------------------
+s*3
+>>>len(s)
+Type Casting or Type coersion
+---------------------------------
+a.int()
+b.float()
+c.complex()
+d.bool()
+e.str()
+
+a.int()
+other types to int type
+int(10.23)=>possible=>10
+int(1+2j)=>complex to int not possible=>Type Error
+int("10")=> possible
+int("10.12")=>not possible=>ValueError
+
+b.float()
+=>this function is used for other types to float type
+float(10)=>int to float=>is possible
+float("krish")=>not possible=>ValueError=>10.0
+float(2+3j)=>not possible=>TypeError
+float("10")=>10
+float("10.5")=>10.5
+
+c.complex
+other types to complex type
+form-1:complex(x)=>x+0j
+complex(10)=>10+0j
+complex(10.6)
+complex(True)
+form-2:complext(x,y)=>x+yj
+complex(10,20)
+complex("10","20")=>not possible=>TypeError
+
+d.bool
+=>this function is used to convert other trypes to bool or boolean values
+for int argument
+bool(0)
+bool(10)
+for float argument
+bool(-10)=>non-zero so=>True
+for complex numbers
+bool(10+20j)
+for string argument
+bool('')=>False
+bool(' ')=>non empty=>space is also a character=>True
+bool('krishna')
+
+e.str()
+str(10)
+str(10.8)
+str(10+20j)
+
+
+Immutable vs Fundemental data types(int,float,complex,bool,str)
+-----------------------------------------------------------------
+=>everything in Python is an object
+=>all fundemental data types OBJECTS are Immutable
+mutable=>changeble
+Immutable=>non-changeble
+Immutable
+-----------
+x=10
+x=20
+here x pointing to different objects
+id(x)
+
+x=10
+y=10
+here create only objetc=> here object reusability
+id(x)
+id(y)
+
+v1="Hyd"
+v2="Hyd"
+v3="Hyd"
+v1,v2,v3 are references
+Hyd is object
+v1,v2,v3 are pointing to one object only
+id(v1),id(v2),id(v3)
+here only one Hyd object only created=> so performance also improve
+
+
+is OPERATOR
+----------------
+x=10
+y=10
+x is y=>True
+y is x=>True
+
+x=256
+y=256
+x is y=>True
+reusing same objetc applicable only for 0 to 256 only
+
+x=257
+y=257
+x is y=>False
+
+
+x=10.0
+y=10.0
+x is y =>False
+
+x=10+20j
+y=10+20j
+x is y=>False
+note: reusable concept is not there for float and complext data types
+
+Note:*****
+Object creation(creating new object) is most costly operation than checking(search operation) for every value in memory
+ex:
+checking => 1ns
+creating object => 10000ns
+Why Immutable concept is required in Python?
+Just because of reusing same object only
+
+Reusable object creation concept Only in the following ranges 
+---------------------------------------------------------------
+int => 0 to 256
+bool => always
+str => always
+float => not applicable
+complex => not applicable
+
+Reusable object creation concept Only in the following ranges why?
+=====================================================================
+at the time python interpretor starts before executing program
+---------------------------------------------------------------
+from 0 to 256 integer objects will be created at the beginning
+
+==============================================6.byte======================================================
+byte data type=> it represents a group of byte numbers just like an array
+byte=> binary data like images and video files
+x=[10,20,30,40,50]
+b=bytes(x) => bytes() function
+type(b)
+b[1]
+b[0:3]
+for x in b:
+    print(x)
+1.bytes must be in the range(0,256) only
+2.Bytes data types are Immutable
+x=[10,20,30,40,50]
+b=bytes(x)
+b[0]
+b[0]=120=>TypeError
+==============================================7.bytearray======================================================
+1.bytes must be in the range(0,256) only
+2.Bytes data types are mutable
+x=[10,20,30,40,50]
+b=bytearray(x) => bytearray() function
+type(b)
+b[0]
+b[0]=120
+for i in b:
+    print(i)
+==============================================8.list======================================================
+=>list databtype is used where insertion order is preserved
+=> and duplicates are allowed
+=>heterogeneous objects are also allowed
+=>values should be  enclosed with []
+=>growable - based on our requirement we can increase or decrease size
+=>Mutable
+l=[]
+type(l)
+l.append(10)
+l.append('krish')
+l.append(None)
+print(l)
+===================================================9.tuple========================================
+=>Immutable
+t=(10,'Durga',True,[1,2])=> list allowed in tuple
+t[1]=> index is allowed
+t[0:2]=slice is allowed
+t[0]=100 => TypeError
+
+==================================10.range()###############################################
+=>Immutable
+=>range data type represents a sequence of values
+note: range is a data type and function as well
+
+Form-1: range(x)
+it represents values from 0 to 9(end-1)
+r=range(10)
+type(r)
+for i in r:
+    print(i)
+r[0]=> index is applicable
+[0:1] => slice is applicable for range data type
+r[0]=177 => Immutable
+
+Fomr-2:range(x,y)
+to represent numbers from 10 to 29
+range(10,30)
+
+form-3 range(x,y,z)
+here z=> step => to increment by z
+range(10,20,2)
+for i in range(10,50,5):
+    print(i)
+##########################################11.set##############################
+note: we performed indexing and slicing  for read operation 
+=>insertion order is not preserved
+=>duplicates are not allowed
+=>heterogeneous objects are allowed
+=> growable
+s=set()
+type(s)
+s={1,2,3}
+s[0]=> indexing is not applicable
+s[1:]=>slicing is not applicable
+s.add('krish')
+
+s=set()=> this is empty set
+for i in range(10):
+    s.add(i)
+    print(i)
+==================================================12.frozenset=========================================
+=> Immutable
+
+s={10,20,30,40}
+fs=frozenset(s)
+type(fs)
+>>>fs
+>>>fs.add(50)=> not applicable
+=================================================13.dict######################################################
+key - value pairs
+=>duplicate keys are not allowed
+=>values can be duplicated
+=>mutable
+d={}=> defualt considered as empty dictionary but not set
+=>>> type(d)
+s=set()
+d={100:'krishna', 200:'maram', 300:'josh'}
+>>>d[100]='krish'=> mutable
+=============================================14.None########################################################
+def f1():
+    a=10
+>>>print(f1())
+def f2():
+    print("hello")
+>>>printf2())
+
+
+
+

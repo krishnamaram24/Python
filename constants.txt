@@ -1,0 +1,5 @@
+constants concept not applicable in Python
+but here we can use capital letters for showing constants
+=>constants are fixed and not changeble
+ex:
+MAX_VALUE=10
