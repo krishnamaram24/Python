@@ -1,8 +1,9 @@
-
-########################################################## Reserved words #################################3
+In Python some words are reserved to represent some meaning or functionality. Such type of words are called 
+Reserved words
+There are 33 reserved words available in Python
 True,False,None
 or,and,not,as
-if,else,elif
+if,elif,else
 for,while,break,continue(used in loops only),return,in,yield(used in generator concept)
 try,except,finally,raise(used to raise customized exception),assert(used for debugging)
 import,from,as,def,class,pass(used any where),global,nonlocal,lambda(for anonymous functions),del,with(used in file manipulation)
