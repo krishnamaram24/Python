@@ -1,0 +1,217 @@
+1.what is the difference between shallow copy and deep copy?
+=>The process of creating duplicate object is called cloning/creating the copy
+=>if the original object does not contain any nested objects then we should go for shallow cloning
+=>if the original object contain any nested objects then we should go for deep cloning
+step1:
+l1=[10,20,30,40,50]
+l2=l1
+l2[0]=60
+print(id(l1))
+print(id(l2))
+print('l1',l1)
+print('l2',l2)
+
+step2: it is cloning
+l1=[10,20,30,40,50]
+l2=l1.copy()
+l2[0]=60
+print(id(l1))
+print(id(l2))
+print('l1',l1)
+print('l2',l2)
+
+
+step3: using copy module 
+import copy
+l1=[10,20,[30,40],50]
+l2=copy.copy(l1)
+l1[2][0]=888
+print(id(l1))
+print(id(l1[2])
+print(id(l2))
+print(id(l2[2])
+print('l1',l1)
+print('l2',l2)
+
+step4:
+import copy
+l1=[10,20,30,40,50]
+l2=copy.copy(l1)
+l1[2]=888
+print(id(l1))
+print(id(l1[2])
+print(id(l2))
+print(id(l2[2])
+print('l1',l1)
+print('l2',l2)
+
+
+
+Shallow copy(partial duplication):
+-------------
+If the original object contains any references to mutable objects(netsted object), just duplicate reference variables will be created pointing to old contained objects, but not duplicate
+objects creation
+import copy
+l1=[10,20,[30,40],50]
+l2=copy.copy(l1)
+l1[2][0]=888
+print(id(l1))
+print(id(l1[2])
+print(id(l2))
+print(id(l2[2])
+print('l1',l1)
+print('l2',l2)
+
+
+Deep copy(complete duplication):
+----------------------------------
+
+import copy
+l1=[10,20,[30,40],50]
+l2=copy.deepcopy(l1)
+l1[2][0]=888
+print(id(l1))
+print(id(l1[2])
+print(id(l2))
+print(id(l2[2])
+print('l1',l1)
+print('l2',l2)
+
+Curriculum:
+-----------
+1.Language fundementals
+2.Operators
+3.Input and Output Statements
+4.Flow control
+5.Strings
+6.List Data Structure
+7.Tuple Data structure
+8.Set data structure
+9.Dictionary data structure
+10.Functions
+11.Modules
+12.Packages
+13.Exception handling
+13.Python Logging
+14.Python Debugging by using Assertions
+14.File handling
+15.OOPS	
+16.Regular expressions
+17.Multi threading
+18.PDBC(Python Data Base Connectivity)
+
+
+Curriculum:
+-----------
+1.Introduction
+2.History
+3.Reserved Words
+4.Identifiers
+5.Variables
+6.Constants
+7.Data types
+8.Operators
+9.Command Line Arguments
+10.Input and Output Statements
+11.Flow control
+12.Strings
+13.List Data Structure
+14.Tuple Data structure
+15.Set data structure
+16.Dictionary data structure
+17.Functions
+18.Modules
+19.Packages
+20.Exception handling
+21.Python Logging
+22.Python Debugging by using Assertions
+23.File handling
+24.OOPS	
+25.Regular expressions
+26.Multi threading
+27.PDBC(Python Data Base Connectivity)
+
+
+
+
+
+
+
+
+
+
+What is the differences between python2.7 vs python3.7?
+python2.7:
+raw_input() and input() functions are there
+
+python3.7:
+input() only there which is equal to raw_input() in python2.7
+
+
+ 
+Module=>a group of variables,functions and classes
+import math
+print(math.sqrt(16))
+print(math.pi)
+or 
+import math as m
+form math import sqrt,pi
+
+built-in functions in math module
+sqrt(),ceil(),floor(),pow(x,y),factorial(),gcd(),sin(),cos()
+
+built-in variables/constants in math module
+pi=>3.14
+e=>2.71
+inf=>infinity
+nan=>not a number
+
+
+
+Gorbage Collection:
+======================
+del statement:
+========================
+=>to improve memory utilization
+ex1:
+x=10
+print(x)
+del x
+print(x)
+
+ex2:
+s1=10
+s2=10
+del s1
+print(s3)
+print(id(s1),id(s2))
+
+ex3:
+s="krishna"
+print(id(s))
+del id(s) //error
+
+
+what is the difference betweeen del and None?
+x=10
+y=20
+del x
+y=None
+print(y)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

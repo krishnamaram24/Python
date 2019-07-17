@@ -53,18 +53,21 @@ Thus a programmer lists down all the steps required to resolve a problem before 
 
 
 
+Function
+---------- 
+A group of statements/lines with some name is called a function
 
 Module
--------
-
+----------------
+A group of functions,classes,variables  saved to a file,is called module
 
 Package
-------
-
-
+-----------
+A group of modules is nothing but package
 
 Library
---------
+---------------
+A group of packages is nothing but library
 
 
 
