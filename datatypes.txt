@@ -25,46 +25,95 @@ Typed Language,in Python there are 14 in-built data Types.
 
 =>To check the type of variable
 >>>type(variable)
-############################################################1.int####################################33
+=>to get address of object
+>>>id()
+############################################################################################################
+#####                                    int Data Type                                                 #####
+############################################################################################################
+=>We can use int data type to represent whole numbers(integer values)
+a=10
+type(a)
+
 we can represent integers in four ways
-a.decimal form
-b.binary form
-c.octal form
-d.hexa decimal
-a.decimal form(base-10)
-range: 0 to 9
+1.Decimal form
+2.Binary form
+3.Octal form
+4.Hexa decimal
+
+1.Decimal Form(base-10)
+---------------
+it is the default number system
+the allowed digits are 0 to 9  or range: 0 to 9
 ex: a = 9827
-b.Binary form(base-2)
-range:0 and 1
+
+2.Binary Form(base-2)
+the allowed digits are: 0 and 1
+Literal value should be prefixed with 0b or 0B
 ex: a=1111(default consider it as decimal)
     a=0b1111(now consider it as binary)
     or 
     a=0B1111
     a=-0b1111
-c.Octal form
-range: 0 to 7
+
+3.Octal Form(Base-8)
+The allowed digits are: 0 to 7
+Literal value should be prefixed with 0o or 0O
 ex: a=777(default it consider as decimal)
     a=0o777
     a=0O777
-d.Hexa decimal(Base-16)
-range: 0 to 9, a to f or A to F(here python is not case sensitive)
+
+4.Hexa decimal(Base-16)
+the allowed digits are: 0 to 9, a to f or A to F(here python is not case sensitive)
+the literal value should be prefixed with 0x or 0X
 ex: 0xFace or 0XFace
 
-conclusion:
-input
+Note
+------
+Being a programmer we can specify literal values in decimal,binary,octal,and hexa decimal forms. But PVM will always provide values only in decimal form
+ex:
 a=10
 b=0b10
 c=0o10
 d=0x10
-but always print in decimal form
-=>
-Note: in Python everything is object, so there is no concepts like size, range, max,min for python data types
+print(a)=>10
+print(b)=>2
+print(c)=>8
+print(d)=>16
+
+
+Note:
+-------
+in Python everything is object, so there is no concepts like size, range, max,min for python data types
 ex: int a=10(4 bytes in java)
     a=10(dynamically assigned size in Python)
-=> base conversions:
-bin()
-oct()
-hex()
+
+Base Conversions
+---------------------
+Python provides the following in-built functions for base conversions
+1.bin()
+we can us bin() to convert from any base to binary
+ex:
+>>>bin(15)=>0b1111
+>>>bin(0o11)=>0b1001
+>>>bin(0x10)=>0b10000
+
+2.oct()
+You can use  oct() to convert form any base to octal
+ex:
+print(oct(10))
+=>0o12
+print(oct(0B1111))=>0o17
+print(oct(0X123))=>0o443
+
+3.hex()
+You can hex() to convert from any base to hexa decimal
+print(hex(100))=>0x64
+print(hex(0b111111))=>0x3f
+print(hex(0o12345))=>
+
+
+
+
 #####################################################2.float##############################################
 >>>a = 1.0
 >>>type(a)

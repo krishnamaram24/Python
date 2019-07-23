@@ -1,4 +1,3 @@
-In Python everything is Object
 
 Programming 
 =================================
