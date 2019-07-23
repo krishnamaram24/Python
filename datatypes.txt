@@ -1,23 +1,31 @@
-################################################# Data Types(built-in data types) ###########################################
->>>type(variable)=> to know type of Data
-=>in Python there are 14 in-built data Types
-int(2)
-float(2.0)
-complex(2+3j)
-bool
-str
-bytes
-bytearray
-range(to represent range of members)
-list(group or list of values)
-tuple(list of values)
-set(list of values without duplicates)
-frozenset
-dict(key value pairs)
+Data Types
+-----------------
+Data Type represent the type of data present inside a variable
+In Python we are not required to specify the type explicitly. Based on value provided, the type will be assigned automatically. Hence Python is Dynamically
+Typed Language,in Python there are 14 in-built data Types.
+
+1.int(2)
+2.float(2.0)
+3.complex(2+3j)
+4.bool
+5.str
+6.bytes
+7.bytearray
+8.None
+9.list(group or list of values)
+10.tuple(list of values)
+11.set(list of values without duplicates)
+12.frozenset
+13.dict(key value pairs)
+14.range(to represent range of members)
+
 
 =>int,float,complex,bool,str are called fundemental/standard/built-in data types 
-=>list,tuple,set,frozenset,dict,bytes,bytearray,range are mostly sequence/collection related things
-None############################################################1.int####################################33
+=>bytes,bytearray,None,list,tuple,set,frozenset,dict,,range are mostly sequence/collection related things
+
+=>To check the type of variable
+>>>type(variable)
+############################################################1.int####################################33
 we can represent integers in four ways
 a.decimal form
 b.binary form
