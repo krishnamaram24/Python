@@ -1,8 +1,10 @@
 Official website for Python
-https://www.python.org/
+https://www.python.org/
+
 
 Package management Software
-https://pip.pypa.io/en/stable/
+https://pip.pypa.io/en/stable/
+
 
 Repository for Python Packages
 https://pypi.org/
