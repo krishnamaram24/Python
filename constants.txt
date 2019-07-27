@@ -1,8 +1,7 @@
 Constants
 -----------
-constants are fixed and not changeble
-constants concept is not applicable in Python but, it is convention to use uppercase characters 
-if we don't want to change value
+=>constants are fixed and not changeble
+=>constants concept is not applicable in Python but, it is convention to use only uppercase characters if we don't want to change value
 ex:
 MAX_VALUE=10
 Note: It is just convention but we can change the value

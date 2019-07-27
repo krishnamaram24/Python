@@ -1,23 +1,26 @@
 Escape Characters
 -----------------
-In string literals we can use escape characters to associate a special meaning
-The following are various important escape characters in Python
+=>In string literals we can use escape characters to associate a special meaning
+=>The following are 9 various important escape characters in Python
 
-\\ => back slash symbol
-\n =>new line
-\t =>Horizontal tab
-\r =>Carriage return
-\f =>Form feed
-\b =>Back space
-\v =>vertical tab
-\' =>Single Quote
-\" =>Double Quote
+1.\\ => back slash symbol
+2.\n =>new line
+3.\t =>Horizontal tab
+4.\r =>Carriage return
+5.\f =>Form feed
+6.\b =>Back space
+7.\v =>vertical tab
+8.\' =>Single Quote
+9.\" =>Double Quote
 
 examples
 ----------------
+s='krishna\\maram'
 s='krishna\nmaram'
+s=s='krishna\tmaram'
+s='krishna\rmaram'
+s='krishna\fmaram'
+s='krishna\bmaram'
+s='krishna\vmaram'
+s='''krishna \'is\' preparing \"for\" aws'''
 print(s)
-
-s='''krishna 'is' preparing "for" aws'''
-s="""krishna 'is' preparing "for" aws"""
-s=krishna \'is\' preparing \"for\" aws

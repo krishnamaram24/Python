@@ -28,7 +28,7 @@ Typed Language,in Python there are 14 in-built data Types.
 =>to get address of object
 >>>id()
 ############################################################################################################
-#####                                    int Data Type                                                 #####
+#####                                           1.int                                                  #####
 ############################################################################################################
 =>We can use int data type to represent whole numbers(integer values)
 a=10
@@ -109,58 +109,119 @@ print(oct(0X123))=>0o443
 You can hex() to convert from any base to hexa decimal
 print(hex(100))=>0x64
 print(hex(0b111111))=>0x3f
-print(hex(0o12345))=>
+print(hex(0o12345))=> 	
+
+Note
+------
+=>long Data Type is available in Python2 but not in Python3. In Python3 long values also you can represent by using int Type only
 
 
-
-
-#####################################################2.float##############################################
->>>a = 1.0
+############################################################################################################
+#####                                        2.float                                                   #####
+############################################################################################################
+=>We can use float data type to represent floating point values(decimal values)
+ex:
+>>>a = 1.234
 >>>type(a)
-=> we can specify float value only in decimal form
+=>We can also represent floating point values by using exponential form(scientific notation)
+ex:
+>>>a=1.2e3
+>>>print(a)
+note
+-----
+=>we can use E instead of e
+=>The main advantage of exponential form is we can represent big values in less memory
+
+=>We can represent int values in decimal,binary,octal and hexa decimal forms. But we can represent float value only by using decimal form
 f = 1111(allowed)
 f = ob1111(not allowed)
 f = 0o1234(not allowed)
 f = 0X12Fa(not allowed)
 f =1.2e3(exponential form is allowed)
-#####################################################3.complex##############################################
-=> a+bj
-=>x = 10+20j
+
+############################################################################################################
+#####                                            3.complex                                             #####
+############################################################################################################
+A complex number is of the form a+bj
+here a is real part, b is imaginary part
+=>a and b contain integers or floating point values
+ex:
+x = 1+2j
+y = 1.1+2.2j
 =>type(x)
-real part = any decimal,binary,octal, hexa
-imaginary part = should be decimal only
->>>a=1+2j
->>>b=3+4j
->>>a+b
->>>a.real
->>>a.imag
-#####################################################4.bool##############################################
-True,False
-True=1, False=0
->>>a=True
->>>type(a)
+
+=>In the real part if we use int value then we can specify that either by binary,octal,decimal or hexa decimal form,But imaginary part should be specified
+only by using decimal form
+ex:
+ a = 0b1101+2j(valid)
+ b = 3+ob11j(in valid)
+
+=>Even we can perform operations on complex type values
+a=1+1.5j
+b=2+2.5j
+c=a+b
+print(c)
+ 
+=>Complex data type has some in-built attributes to retrieve the real part and imaginary part
+a=1.2+2.5j
+a.real
+a.imag
+
+Use case
+---------
+We can use complex data type generally in Scientific Applications and Electrical Engineering Applications
+
+############################################################################################################
+#####                                    4.bool                                                        #####
+############################################################################################################
+=>We can use this data type to represent boolean values
+=>The only allowed values for this data type are: True or False
+=>Internally Python represent True as 1 and False as 0
+ex1:a=True
+type(a)
+ex2:
 a=10
 b=20
 c=a<b
->>>a
->>>True+False =1
->>>True/False= ZeroDivisionError
->>>True/True=1.0
-#####################################################5.str##############################################
-signle quote,double quotes,triple quotes(used for multi line string literals)
+print(c)=>True
+
+True+True=2
+True-False=1
+True+False =1
+True/False= ZeroDivisionError
+True/True=1.0
+
+
+############################################################################################################
+#####                                         5.str                                                    #####
+############################################################################################################
+=>str represents String data type
+=>A String is a sequence of characters enclosed within single quotes or double quotes
+=>signle quote,double quotes,triple quotes(used for multi line string literals)
+
 a = krishna(not acceptable=> show be within single quote or in double quotes)
-a = '''krishna'''
 a = "krishna"
 a = 'krishna'(recommended)
 a = '''krishna
     maram'''(for multi line string)
-a = ''' krishna is done "Python" courses'''
+or
+a = """krishna
+    maram"""(for multi line string)
 
-slice OPERATOR
-----------------
-slice means=> piece or substring
-=>in Python index start from 0 only
-=>in Python there are 1.positive index(left to right) 2.negative index(right to left)
+=>We can also use triple quotes to use single quote or double quote in our String
+a = '''This 'Python class very helpful' conducted by "Krishna"'''
+
+
+Slicing of Strings
+----------------------
+=>slice means a piece or substring
+=>[] Operator is called slice operator, which can be used to retrieve parts of string
+=>In Python String follows zero based index
+=>+ve index means forward direction from left to right
+=>-ve index means backward direction from right to left
+syntax
+--------
+s[begin:end:step]
 ex:
 s = 'krish'
 k=0,-5
@@ -168,77 +229,123 @@ r=1,-4
 i=2,-3
 s=3,-2
 h=4,-1
-s[begin:end:step]
+
+
 returns substring from begin index to end - 1 index
 s[1:4]=>ris
-s[0:]=>krish=>here end is optional
 s[:4]=>kris=>begin to end - 1
-s[:]
+s[:]=>krish
+s[0:]=>krish=>here end is optional
 s[1:100]=>here no IndexError
 s[0:4:2]
-repetition OPERATOR
+
+
+=>In Python,we can represent char values also by using str type and explicitly char type is not available
+ex:
+c='a'
+print(c)
+type(c)
+
+=>Repetition Operator
 ----------------------
 s*3
->>>len(s)
-Type Casting or Type coersion
----------------------------------
-a.int()
-b.float()
-c.complex()
-d.bool()
-e.str()
 
-a.int()
-other types to int type
-int(10.23)=>possible=>10
+=>to check length of String, we can use len() in-built function
+print(len(s))
+
+Type Casting or Type Coersion
+====================================
+=>We can convert one type value to another type. This conversion is called Typecasting or Type coersion
+=>The following are various in-built functions for type casting
+1.int()
+2.float()
+3.complex()
+4.bool()
+5.str()
+
+1.int()
+---------
+=>we can use this function to convert values from other types to int type
+int(123.987)=>123
 int(1+2j)=>complex to int not possible=>Type Error
-int("10")=> possible
+int(True)=>1
+int("10")=>10
 int("10.12")=>not possible=>ValueError
+=>we can convert from any type to int except complex type
+=>If you want to convert str type to int type, then str should contain only integral value and should be specified in base -10
 
-b.float()
-=>this function is used for other types to float type
-float(10)=>int to float=>is possible
-float("krish")=>not possible=>ValueError=>10.0
-float(2+3j)=>not possible=>TypeError
-float("10")=>10
+2.float()
+------------
+=>you can use float() function to convert other type values to float type
+float(10)=>10.0
+float(2+3j)=>TypeError
+float(True)=>1.0
+float("krish")=>Value error
+float("10")=>10.0
 float("10.5")=>10.5
+=>we can convert from any type to float except complex type
+=>If you want to convert str type to float type, then str should be either integral or floating point literal  and should be specified in base -10
 
-c.complex
-other types to complex type
-form-1:complex(x)=>x+0j
+3.complex()
+----------------
+=>We can use complex() function to convert other types to complex type
+Form-1:complex(x) 
+-----------------
+We can use this function to convert x into complex number with real part x and imaginary part 0 x+0j)
 complex(10)=>10+0j
-complex(10.6)
-complex(True)
-form-2:complext(x,y)=>x+yj
-complex(10,20)
+complex(10.5)=>10.5+0j
+complex(True)=>1+0j
+complex("10")=>10+0j
+complex("10.5")=>10.5+0j
+complex("krish")=>ValueError
+
+Form-2:complex(x,y)  
+-------------------
+You can use this method to convert x and y into complex number such that x will be real part and y will be imaginary part
+ex:
+complex(10,20)=>10+20j
+complex(True,False)=>1+0j
 complex("10","20")=>not possible=>TypeError
 
-d.bool
-=>this function is used to convert other trypes to bool or boolean values
+4.bool
+--------------
+=>You can use bool() function convert other trypes to bool type
+ex:
 for int argument
-bool(0)
-bool(10)
-for float argument
+bool(0)=>False
+bool(1)=>True
+bool(10)=>True
 bool(-10)=>non-zero so=>True
+for float argument
+bool(10.3)=>True
 for complex numbers
-bool(10+20j)
+bool(10+20j)=>True
 for string argument
 bool('')=>False
 bool(' ')=>non empty=>space is also a character=>True
-bool('krishna')
+bool('krishna')=>True
 
-e.str()
-str(10)
-str(10.8)
-str(10+20j)
+5.str()
+--------------
+=>You can use str() function to convert other data type values to str type
+ex:
+str(10)=>'10'
+str(10.8)=>'10.8'
+str(10+20j)=>'10+20j'
+str(True)=>'True'
 
 
-Immutable vs Fundemental data types(int,float,complex,bool,str)
+ Fundemental Data Types vs Immutability
 -----------------------------------------------------------------
-=>everything in Python is an object
-=>all fundemental data types OBJECTS are Immutable
-mutable=>changeble
-Immutable=>non-changeble
+=>All Fundemental Data Types are  Immutable. i.e once we creates an object,we cannot perform any changes in that object. If we are trying to change then
+with those changes a new object will be created. this non-changeble behaviour is called as Immutability
+=>In Python if a new object is required, then PVM won't create object immediately. First it will check is any object available with the required content 
+or not. If available then existing object will  be reused. If it is not available then only a new object will be created. The advantage of this approach 
+is memory utilization and performance will be improved. But the problem in this approach is, several refernces pointing to the same object, by using one 
+reference if we are allowed to change content in the existing object then the remaining references will be affected. To prevent this Immutability concept 
+is required. According to this once creats an object we are not allowed to change content. If we are trying to change with those changes a new object 
+will be created.
+
 Immutable
 -----------
 x=10
@@ -248,7 +355,7 @@ id(x)
 
 x=10
 y=10
-here create only objetc=> here object reusability
+here create only object=> here object reusability
 id(x)
 id(y)
 
@@ -274,11 +381,13 @@ y=256
 x is y=>True
 reusing same objetc applicable only for 0 to 256 only
 
+have to test
 x=257
 y=257
 x is y=>False
 
-
+have to test
+=>Reusable concept is not there for float and complext data types
 x=10.0
 y=10.0
 x is y =>False
@@ -286,110 +395,138 @@ x is y =>False
 x=10+20j
 y=10+20j
 x is y=>False
-note: reusable concept is not there for float and complext data types
 
-Note:*****
-Object creation(creating new object) is most costly operation than checking(search operation) for every value in memory
+
+x=True
+y=True
+x is y =>True
+id(x)
+id(y)
+
+
+x='krish'
+y='krish'
+x is y=>True
+id(a)
+id(b)
+
+
+=>Object creation(creating new object) is most costly operation than checking(search operation) for every value in memory
 ex:
 checking => 1ns
 creating object => 10000ns
-Why Immutable concept is required in Python?
+
+=>Why Immutable concept is required in Python?
 Just because of reusing same object only
 
-Reusable object creation concept Only in the following ranges 
----------------------------------------------------------------
+=>Reusable object creation concept Only in the following ranges 
+
 int => 0 to 256
 bool => always
 str => always
 float => not applicable
 complex => not applicable
 
-Reusable object creation concept Only in the following ranges why?
-=====================================================================
-at the time python interpretor starts before executing program
----------------------------------------------------------------
-from 0 to 256 integer objects will be created at the beginning
+=>Reusable object creation concept Only in the following ranges why?
+At the time python interpretor starts before executing program,from 0 to 256 integer objects will be created at the beginning
 
-==============================================6.byte======================================================
-byte data type=> it represents a group of byte numbers just like an array
-byte=> binary data like images and video files
+
+==================================================================================================
+=====                             6.byte                                                    ======
+==================================================================================================
+=>bytes data type represents a group of byte numbers just like an array
+=>byte means binary data like images and video files
 x=[10,20,30,40,50]
 b=bytes(x) => bytes() function
 type(b)
-b[1]
-b[0:3]
+print(b[0])
+print(b[0:3])
 for x in b:
     print(x)
-1.bytes must be in the range(0,256) only
-2.Bytes data types are Immutable
+=>bytes must be in the range(0,256) only
+x=[10,20,30,40,257](ValueError
+=>Bytes data types are Immutable
 x=[10,20,30,40,50]
 b=bytes(x)
 b[0]
 b[0]=120=>TypeError
-==============================================7.bytearray======================================================
-1.bytes must be in the range(0,256) only
-2.Bytes data types are mutable
-x=[10,20,30,40,50]
+==================================================================================================
+=====                             7.bytearray                                               ======
+==================================================================================================
+=>bytearray is exactly same as bytes data type except that its elements can be modified
+ex:
+x=[10,20,30,40]
 b=bytearray(x) => bytearray() function
 type(b)
 b[0]
 b[0]=120
 for i in b:
-    print(i)
-==============================================8.list======================================================
-=>list databtype is used where insertion order is preserved
-=> and duplicates are allowed
-=>heterogeneous objects are also allowed
-=>values should be  enclosed with []
-=>growable - based on our requirement we can increase or decrease size
-=>Mutable
+    print(i
+=>bytes must be in the range(0,256) only
+x=[10,20,30,40,257]=>ValueError
+=>Bytes data types are mutable
+b[0]=200
+
+==================================================================================================
+=====                             8.list                                                    ======
+==================================================================================================
+=>If you want to represent a group of values as a single entity where insertion order is preserved and duplicates are allowed and 
+heterogeneous objects are also allowed then you should go for list data type
+1.Insertion order is preserved
+2.heterogeneous objects are allowed
+3.duplicates are allowed
+4.Growable in nature- based on our requirement we can increase or decrease size
+5.values should be  enclosed within square brackets []
+6.Mutable
+ex1:
 l=[]
 type(l)
+ex2:
+l=[1,'krish',1]
 l.append(10)
-l.append('krish')
 l.append(None)
 print(l)
-===================================================9.tuple========================================
-=>Immutable
+l[0]=20
+print(l)
+for in in l:
+  print(i)
+
+==================================================================================================
+=====                             9.tuple                                                   ======
+==================================================================================================
+1.Insertion order is preserved
+2.heterogeneous objects are allowed
+3.duplicates are allowed
+4.Not growable in nature
+5.values should be  enclosed within paranthesis ()
+6.Immutable
 t=(10,'Durga',True,[1,2])=> list allowed in tuple
 t[1]=> index is allowed
 t[0:2]=slice is allowed
 t[0]=100 => TypeError
+t.append(200)=>AttributeError
+t.remove(10)=>AttributeError
+Note:
+=>tuple is the read only version of list
+=>we performed indexing and slicing  for read operation
 
-==================================10.range()###############################################
-=>Immutable
-=>range data type represents a sequence of values
-note: range is a data type and function as well
-
-Form-1: range(x)
-it represents values from 0 to 9(end-1)
-r=range(10)
-type(r)
-for i in r:
-    print(i)
-r[0]=> index is applicable
-[0:1] => slice is applicable for range data type
-r[0]=177 => Immutable
-
-Fomr-2:range(x,y)
-to represent numbers from 10 to 29
-range(10,30)
-
-form-3 range(x,y,z)
-here z=> step => to increment by z
-range(10,20,2)
-for i in range(10,50,5):
-    print(i)
-##########################################11.set##############################
-note: we performed indexing and slicing  for read operation 
-=>insertion order is not preserved
-=>duplicates are not allowed
-=>heterogeneous objects are allowed
-=> growable
+==================================================================================================
+=====                             10.set                                                    ======
+==================================================================================================
+If we want to represent a group of values without duplicates where order is not important then we should go for set Data Type
+ 
+1.Insertion order is not preserved
+2.heterogeneous objects are allowed
+3.duplicates are not allowed
+4.growable in nature
+5.values should be  enclosed within paranthesis {}
+6.Mutable
+7.index concept is not applicable
+8.slicing concept is not applicable
 s=set()
 type(s)
-s={1,2,3}
-s[0]=> indexing is not applicable
+s={1,2,3,'krish}
+s[0]=> TypeError
 s[1:]=>slicing is not applicable
 s.add('krish')
 
@@ -397,31 +534,93 @@ s=set()=> this is empty set
 for i in range(10):
     s.add(i)
     print(i)
-==================================================12.frozenset=========================================
-=> Immutable
-
-s={10,20,30,40}
+==================================================================================================
+=====                             11.frozenset                                               =====
+==================================================================================================
+It is exactly same as set except that it is immutable,Hence we cannot use add or remove functions
+s={10,20,30,'krish'}
 fs=frozenset(s)
 type(fs)
->>>fs
->>>fs.add(50)=> not applicable
-=================================================13.dict######################################################
-key - value pairs
-=>duplicate keys are not allowed
-=>values can be duplicated
-=>mutable
+fs
+fs.add(50)=>AttributeError
+fs.remove(10)=>AttributeError
+==================================================================================================
+=====                             12.dict                                                    =====
+==================================================================================================
+If you want to represent a group of values as key-value pairs then we should go for dict Data Type
+1.duplicate keys are not allowed
+2.values can be duplicated
+3.mutable
+4.the order is not preserved
+If you are trying to insert an entry with duplicate key then old value will be replaced with new value
+ex1:
 d={}=> defualt considered as empty dictionary but not set
 =>>> type(d)
-s=set()
-d={100:'krishna', 200:'maram', 300:'josh'}
->>>d[100]='krish'=> mutable
-=============================================14.None########################################################
-def f1():
-    a=10
->>>print(f1())
-def f2():
-    print("hello")
->>>printf2())
+d={100:'krish', 200:'maram', 300:'krish'}
+>>>d['400']='josh'=> mutable
+
+==================================================================================================
+=====                             13.None                                                    =====
+==================================================================================================
+=>None means nothing or No value associated
+=>If the value is not available,then to handle such type of cases None introduced
+ex:
+def m1():
+  a=10
+print(m1())
+ None
+
+==================================================================================================
+=====                             14.range                                                   =====
+==================================================================================================
+=>range is a data type and function as well
+=>Immutable
+=>index is applicable
+=>slice is applicable
+=>range data type represents a sequence of values/numbers
+
+Form-1:range(n)
+it represents values from 0 to n-1
+ex:
+r=range(10)
+type(r)
+for i in r:
+    print(i)
+r[0] 
+[0:1]
+r[0]=177 => Immutable
+
+Form-2:range(x,y)
+to represent numbers from x to y-1
+ex:
+r=range(10,20)
+for i in r:
+  print(i)
+
+Form-3:range(x,y,z)
+here z=> step => to increment by z
+ex:
+r=range(10,20,2)
+for i in r:
+    print(i)
+=>We can access elements present in the range Data Type by using index
+r=range(10,20)
+r[0]=>10
+r[15]=>IndexError
+
+=>We cannot modify the values of range data type
+r[0]=100=>TypeError
+
+=>We can create a list of values with range data type
+l=list(range(10))
+print(l)
+
+
+
+
+
+
+
 
 
 
