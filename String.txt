@@ -1,0 +1,193 @@
+Creation of String:
+---------------------------
+s='krishna'
+s="krishna"
+
+
+How to access characters of the string:
+==========================================
+1.by using index:
+----------------------
+s="krishna"
+print(s[0])
+print(s[-1])
+
+ex1:write a program to accept some string from the keyboard and print all charatcers with index
+s=input("enter some string")
+for x in s:
+  print("the character present at  positive index  {} and at negative index  {} is :{}".format(i,i-len(s),x)
+  i=i+1
+2.by using slice operator:
+----------------------------
+s="krishna"
+s[beginindex:endindex:step] 
+forward direction: 
+default value for begin:0
+default value for end:length of the string
+default value for step:1
+=>begin to end - 1
+print(s[0:6:1])
+backward direction: 
+default value for begin index:-1
+default value for end:-(length of string + 1)
+=>begin to end + 1
+print(s[-1:-6:-1]
+
+
+1.Write a program to print output =aeknbd if I give input=a4k3b2?
+string:
+unicode values:
+a = 97
+A = 65
+chr(unicode value)=> charater
+ord(character)=>unicode value
+
+input=input("enter some string")
+output=''
+for x in input:
+  if x.isalpha():
+    output=output+x
+    previous=x
+  else:
+    output = output + chr(ord(previous) + int(x))
+print(output)
+
+
+
+2.Write a program to avoid duplicates    input =ABBCDDF AND output=ABCDF
+method1:
+input=input("enter some string")
+output=''
+for x in input:
+  if x not in output:
+    output=output+x
+
+print(output)
+
+method2:
+input=input("enter some string")
+l=[]
+for x in input:
+  if x not in l:
+    l.append(x)
+output=''.join(l)
+print(output)
+
+
+
+3.Write a program  input=AABCCDD output= A-2 B-1 C-2 D-2
+d={}
+d(key)=value
+item =each key-value pair
+input=input("enter some string")
+d={}
+for x in input:
+  if x in d.keys():
+    d[x=d[x]+1
+  else:
+    d[x]=1
+print(d)
+for k,v in d.items():
+   print("{} ={} times ".format(k,v))
+
+
+methods:
+----------
+find(substring)
+rfind()
+index()
+rindex()
+
+
+counting substrings in the given string:
+------------------------------------------------
+s.count(substring)
+s.count(substring,begin,end)
+
+ex1:
+s="krishnasoftkrishnasoft"
+print(s.count("soft"))
+print(s.count("soft",8,15))
+print(s.count("soft",8,len(s))
+
+replacing a string with another string:
+------------------------------------------
+s.replace(oldstring,newstring)
+
+ex1:
+s="learning python is very difficult"
+s1=s.replace("difficult","easy")
+print(s,id(s))
+print(s1,id(s1))
+
+
+String object is immutable then how do you perform replace() operation on string object?
+
+
+splitting of strings:
+-------------------------
+s.split(seperator) =>here default seperator is space
+ex1:
+s="1991-03-24"
+l=s.split('-')
+print(l)
+for x in l:
+  print(x)
+
+
+What is the difference between sep='' and s.split()?
+=>split() is applicable related to string concept
+=>sep is applicable related to print() function    print(a,b,c,d)
+
+
+
+join() operation:
+------------------
+l=["krishna","maram"]
+s=seperator.join(l)
+s='-'.join(l)
+print(s)
+
+Changing cases of string:
+-------------------------------
+s="Krishna maram software Solutions"
+print(s.lower())
+print(s.upper())
+print(s.swapcase())
+print(s.title())
+print(s.capitalize())
+
+
+Checking starting and ending part of String:
+-------------------------------------------------
+s="Krishna maram software Solutions"
+s.startswith("Krishna")
+s.endswith("solutions")
+
+
+
+
+Write a program to reverse the string:
+-----------------------------------------
+s="krishna"
+method 1:
+print(s[::-1]
+method2:
+print(reversed(s))
+or 
+print(".join(reversed(s)))
+or
+for x in reversed(s):
+   print(x,end=")
+or
+for x in reversed(x):
+  print(x)
+
+
+without using slice operator and reversed() method:
+
+
+
+
+
+

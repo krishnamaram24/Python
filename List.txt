@@ -1,0 +1,199 @@
+List data structure:
+================
+=>List is used to represent a group of elements as a single entity
+=>insertion order is preserved
+=>duplicate objets are allowed
+=>heterogeneous objects
+=>mutable
+
+creation of list:
+------------------------
+to create empty list:
+1.l=[]
+2.l=[1,2,3,4]
+3.with dynamic input:
+list=eval(input("enter some list"))
+ex1:
+l=eval(input('enter some list'))
+print(l)
+print(type(l))
+4.with list(sequence) function
+ex1:
+l=list('krishna') or l=list(range(4))
+print(l)
+5.split() function
+ex1:
+s="krishna software solutuions"
+l=s.split()
+print(l)  
+6.Nested lists
+[1,2,3,[3,4,5]]
+
+Accessing elements of List:
+------------------------
+by using index:
+l=[1,2,3,4,[5,6,7]]
+print(l[4][1])
+
+l=[0,1,2,list('krishna')]
+print(l[3][2])
+
+
+by using slice operator
+l=1,2,3,4]
+print(l[0:5:1])
+
+
+
+Traversing elements of a list:
+-------------------------------
+ using while loop:
+l=[10,20,30,40,50]
+i=0
+while i<len(l):
+  print (l[i])
+  i=i+1
+
+using for loop:
+l=[10,20,30,40,50]
+for x in l:
+   print(x)
+
+
+
+Important functions of a list:
+----------------------------------
+l=[1,2,3,4,4,5]
+1.len()
+print(len(l))
+2.count()
+print(l.count(4))
+3.index()=>to display first occurance of element
+print(l.index(4))
+
+
+Manipulating(changing content) elements of the list:
+--------------------------------------------------
+1.append() method
+ex1:
+l=[]
+l.append("sunny")
+l.aapend("chinny")
+print(l)
+ex2:
+l=[]
+for i in range(101):
+  if i%10==0:
+    l.append(i)
+print(l)
+2.insert() function
+l=[1,2,3,4,5]
+l.insert(1,234)
+l.insert(30,2234)
+l.insert(-30,2324)
+print(l)
+3.extend() function
+l1=[1,2,3]
+l2=[4,5,7]
+l1.extend(l2)
+print(l1)
+print(l2)
+l1.extend("krishna")
+print(l1)
+
+4.remove()
+l.remove(4)
+
+
+5.pop()
+print(l.pop())
+l.pop(2)
+
+what is the difference between remove() and pop() function?
+what is the difference between append() and insert() function?
+what is the difference between append() and extend() function?
+
+
+list is dynamic/growable:
+------------------------------
+append(),insert(),extend()=>increasing size
+remove(),pop()=>to decrease the size
+
+Ordering elements of list:
+------------------------------
+1.reverse() method
+l.revers()
+print(l)
+
+2.sort()
+
+l.sort()
+
+l=['dld',ddd','at']
+l.sort()
+
+l.sort(reverse=True)=>print in reverse order
+
+
+Aliasing:
+-----------
+=>Aliasing is not recommended
+the process of giving another reference variable to the existing reference variable to the list
+x=[1,2,3,4,5]
+y=x
+print(id(x))
+print(id(y))
+
+
+Shallow copy vs deep copy: cloned object
+--------------------------
+shallow copy=>pointing to same object
+deep copy=>pointing to different objects
+
+we can create cloned object in tow ways:
+------------------------------------------
+
+1.by using slice operator
+x=[1,2,3,4,5]
+y=x[:]
+y[1]=777
+print(id(x))
+print(id(y))
+print(x)
+print(y)
+
+2.by using copy() method
+
+y=x.copy()
+y[1]=777
+print(id(x))
+print(id(y))
+print(x)
+print(y)
+
+
+
+what is the difference between = operator  and copy() method?
+y=x => for aliasing
+y=x.copy()=>for cloning
+
+Comparing List Objects:
+---------------------------
+x=['krish',''maram']
+y=['krish',''maram']
+z=['Krish',''Maram']
+note: == operator always compares content
+print(x==y)
+print(x==z)
+
+print(x is y)//False
+note: is operator always compares object address
+
+
+
+
+
+
+
+
+

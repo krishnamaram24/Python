@@ -1,0 +1,183 @@
+Flow Control:
+-------------
+3 types
+1.Conditional/selection statements:
+-----------------------------------
+if
+if-else
+if-elif-else
+identation
+if conadition:
+   stmts
+2.Iterative/Looping  statements:
+-----------------------
+for
+while
+
+for loop:
+for eachelement in sequence:
+  do some action
+ex1:
+s=eval(input("enter your name"))
+i=0
+for x in s:
+  if i!=0:
+    print("the character present at",i,"index is",x)
+  i=i+1
+ex2:can you please display krishna for 10 times using for loop
+for i in range(10):
+  print("krishna")
+ex3: print 10 to 1 in descending order
+for x in range(10,0,-1) # here -1 means everytime decrement by 1
+  print(x)
+
+
+while loop:
+while condition:
+  body
+
+ex1:
+x=1
+while x<=10:
+  print(x)
+  x+=1 
+ex2:
+name=""
+pwd=""
+while name!="krishna" and pwd!="maram":
+  name=input("enter name")
+  pwd=input("enter pwd")
+print("done")
+
+Infinite loops:
+i=0
+while True:
+  i=i+1
+  print("Hello:",i)
+
+Nested loops:
+for i in range(4):
+  for j in range(4):
+    print("i={} and j={}.format(i,j))
+output: 4*4 =16 lines of code we can see
+
+ex6:
+n=int(input("enter the number of rows"))
+for i in range(1,n+1): # i represent row number
+  for j in range(1,i+1): # j represents the number of  *
+    print("*",end=" ")
+  print()
+ex7:
+n = int(input("enter the number of rows"))
+for i in range(n):
+      print("* "*n)
+  or 
+n = int(input("enter the number of rows"))
+for i in range(n): # row number
+  for j in range(n): # number of *
+      print("*",end=" ")
+  print()
+
+ex8:
+n = int(input("enter the number of rows"))
+for i in range(1,n+1): # i represents row number
+      print("* "*i)
+3.Transfer Statements:
+----------------------
+break
+continue
+pass
+
+break:
+----------
+=>Based on some condition if we want to break loop execution then we should go for "break" statement
+ex1:
+cart=[10,20,600,30,60,40]
+for item in cart:
+  if item > 500:
+    print("sorry for this item, insurance is required")
+    break
+  print("processing item:",item)
+
+
+
+ex2:
+i=0
+while True:
+  print("hello")
+  i=i+1
+  if i==5:
+    break
+
+
+continue:
+---------
+=>continue statement is used in while loop to skip current iteration and continue next iteration
+
+ex1:
+for i in range(10):
+  if i%2==0:
+    continue
+  print(i)
+
+ex2:
+cart=[10,20,600,30,60,40]
+for item in cart:
+  if item > 500:
+    print("sorry for this item, insurance is required")
+    continue
+  print("processing item:",item)
+
+
+
+Loops with else statement:
+for-else
+while-else
+try-except-else-finally 
+ex1:
+cart=[10,20,600,30,60,40]
+for item in cart:
+  if item > 500:
+    print("sorry for this item, insurance is required")
+    break
+  print("processing item:",item)
+else:
+  print("congrats all items processed succesfully")
+
+
+note: here else means loop without break
+
+
+1.When do use for loop and while loop?
+=>if you know number of iterations in advance then use for loop where as 
+=>execute body for every time in the given sequence=>then go for   "for loop"
+for x in range(10):
+  body
+=>execute body as long as some condition is true => then go for "while" loop
+while condition:
+  body
+2.How to exit from the loop?
+using "break" statement
+3.How to skip current iteration and continue next iteration?
+using continue statement
+4.when else part will be executed?
+if loop executed without break
+
+
+pass statement:
+===============
+=>it is an empty/null statement
+=>it won't do anything
+=>pass is a keyword in python
+=>if empty block is required then go for pass statement
+
+ex1:
+for i in range(100):
+  if i%10==0:
+    print(i)
+  else:
+    pass
+
+
+
+

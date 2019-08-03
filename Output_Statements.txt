@@ -1,3 +1,0 @@
-Output Statements:
------------------------
-We can use print() function to display output

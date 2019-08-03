@@ -1,0 +1,20 @@
+The arguments which are provided by command is called command line arguments
+
+argv=>is a list type=>is a variable available in sys module
+
+from sys import argv
+print(type(argv))
+print("the number of command line arguments:",len(argv))#here len() is a function
+print("the list of command line arguments:",argv)
+print("the command line arguments one by one:")
+for x in argv:
+  print(x)
+
+Q)Read a group of int values from the keyboard as cmd line arguments and print sum
+from sys import argv
+args = argv[1:]
+sum = 0
+for x in args:
+  n = int(x)
+  sum = sum + n
+print("sum is:" sum)
