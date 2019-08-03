@@ -1,22 +1,28 @@
-Operator:
-
-Types of operators:
+Operator
+============
+=>Operator is a symbol that perform certain operations
+=>There are 6 types of operators:
 1.Arithmetic operators
-2.Relational operaots or comparison operators
+2.Relational operaots/comparison operators
 3.Logical operators
 4.Bitwise operators
 5.Assignment operators
-6.Special operators
+6.Compound operators
+7.Ternary operators
+8.Identity operators
+9.Membership operators
 
-1.Arithmetic  Operators(+,-,*,/,%,//,**)
-+=>Addition
--=>subtraction
-*=>multiplication
-/=>division(result is always floot value only)
-%=>modulo
-//=>floor(floor means before nearest number or nearest integer value in float style) division(result is floor or int values)=>a=10.5 b=2 then a/b=5.25 and a//b=5.0
-**=>power or exponent
-Example:
+1.Arithmetic  Operators
+----------------------------
+1.+ => Addition
+2.- => subtraction
+3.* => multiplication
+4./ => division(result is always floot value only)
+5.% => modulo
+6.// => floor division(floor means before nearest number or nearest integer value in float style) division(result is floor or int values)=>a=10.5 b=2 then a/b=5.25 and a//b=5.0
+7.**=>power or exponent
+
+Ex1:
 a=10
 b=2
 print("a+b",a+b)=>12
@@ -26,86 +32,217 @@ print("a/b",a/b)=>5.0
 print("a%b",a%b)=>0
 print("a//b",a//b)=>5
 print("a**b",a**b)=>100
-Note:
-/=>float
-//=>int or float
-if both arguments are int==>int
-if both arrguments are float=>float
 
-2.Relational Operators(>,<,>=,<=,==,!=)
->,>=,<,<=
+Note1:
+/=>division operator always performs floating point arithmetic.Hence it will always returns float value
+//=>Floor division can perform both floating point and integral arithmetic,if both arguments are int type then the result int type, if at least one argument 
+is float type then the result is float type
+
+Note2:
+=>+ => string concatination operator
+=>If  you want to use + operator for str type then compulsory both arguments should be str type only otherwise we will get error
+ex1:
+print("krishna"+10)=>TypeError
+print("krishna"+"10"
+
+Note3:
+=>* => string manipulation operator
+=>If you want to use * operator for str type then compulsory one argument should be int and other argument should be str type
+ex1:
+print("krishna"*2)
+print("krishna"*2.5)=>TypeError
+
+
+2.Relational Operators
+---------------------------------------
+=>There are 6 types of relational operators
+>,>=,<,<=,==,!=
+
+Note:ASCII Code
 A=>65
 a=>97
-ex:
+
+ex1:
 a=10
 b=20
-print"a>b is",a>b)=>False
-we can apply relational operaotrs in string type also
-a='durga'
-b='darga'
 print("a>b is",a>b)=>False
-a=True(1)
-b=False(0)
-print(a>b)=True
-Note:
-chaining of relational operators is possible 
-print(10>20>30>40)
-Equality operators: ==,!=
-10==20=>F
-10!=20=>T
+print("a<b is",a<b)=>True
+print("a>=b is",a>=b)=>False
+print("a<=b is",a<=b)=>False
+print("a==b is",a==b)=>False
+print("a!= is",a!=b)=>True
 
-3.Logical Operators(or,and,not)
+=>we can apply relational operaotrs in string type also
+ex1:
+a='krishna'
+b='maram'
+print("a>b is",a>b)=>False
+
+=>chaining of relational operators is possible 
+ex1:
+a=10
+b=20
+c=30
+print(a>b>c)=>False
+
+
+3.Logical Operators
+-----------------------
+=>There are 3 types of Logical operators
 or,and,not
+
+and => If both arguments are True then only result is True
+or => If atleast one argument is True then result is True
+not => complement
+
+ex1:
+True and False => False
+True or False => True
+not False => True
+
+
+=>For non-boolean type behaviour
+0 means False
+non-zero means True
+empty string is always treated as False
+
 x and y:
-if x is evaluates to False then return x otherwise returns y
+=>if x is evaluates to false return x otherwise return y
 ex:
-0 and 100 =>0
-2 and 100=> 100
+print(10 and 20) => 20
+print(0 and 20) => 0
+
 x or y:
-if x is evaluates to True then return x otherwise returns y
+=>if x is evaluates to True return x otherwise result is  y
 ex:
-0 and 100 =>100
-2 and 100=> 2
+print(10 or20) => 10
+print(0 or 20) => 20
+
 
 not x:
-not 10=>False
+=>if x is evaluates to False then result is True otherwise False
+ex:
+print(not 10) => False
+print(not 0) => True
 
 
 
+4.Bitwise operators
+----------------------
+=>There are 6 types of Bitwise operators are there
+&,|,^,~,<<,>>
+=>applicable only for int and boolean
 
-4.Bitwise operators(&,|,^,~,<<,>>)
- ==> applicable only for int and boolean
+& => If both bits are 1 then only result is 1 otherwise result is 0
+| => If atleast one bit is 1 then result is 1 otherwise result is 0
+^ => If bits are different then only result is 1 otherwise result is 0
+~ => bitwise complement operator( 1 => 0, 0 => 1)
+<< => Bitwise Left Shift
+>> => Bitwise Right Shift
 
 
 
-5.Assignment Operators(=,+=,?:)
+5.Assignment Operators
+------------------------
+=,+=,?:
+
+=>You can use assignment operator to assign value to the variable
+ex:
+a = 10
 
 
 
+6.Compound Operators
+--------------------
+=>You can combine assignment operator with some other operator to form compound assignment operator
+ex:
+x+=10 => x = x + 10
+The following is the list of all possible compound operators
++=,-=,*=,/=,%=,//=,**=,&=,|=,^=
+
+ex1:
+x = 10
+x += 20
+print(x)
+
+ex2:
+x = 10
+x &= 5
+print(x)
 
 
-6.Special operators(is,in)
-Identity operators(is)
+7.Ternary Operator
+-------------------
+=>x =  <firstValue> <if condition> <else> <secondValue>
+If condition is True the firstValue will be considered else secondValue will be considered
+ex
+a = 10
+b = 20
+x = 30 if a < b else 50
+print(x) 
+
+=>Nesting of ternary operator is possible
 a=10
-b=10
-print(a is b)
-Membership operators(in)
+b=30
+c=10
+x = a if a<b and a<c else b if b<c else c
+print(x)
+
+
+
+
+8.Identity operators
+-----------------------
+=>You can use Identity operators for address comparison
+=>There are two types of Identity operators are available
+is,is not
+
+r1 is r2 returns True if both r1 and r2 are pointing to the same object
+r1 is not r2 returns True if both r1 and r2 are not pointing to the same object
+
+ex1:
+r1=10
+r2=10
+print(r1 is r2)
+testing:
+print(id(r1))
+print(id(r2))
+
+ex2:
+list1=["one","two","three"]
+list2=["one","two","three"]
+print(id(list1))
+print(id(list2))
+print(list1 is list2)
+print(list1 == list2)
+
+
+Note:
+You can use is operator for address comparison where as == operator for content comparison
+
+9.Membership operators
+-----------------------
+=>You can use Mebership operators to check whether the given object present in the given collection(it may be String,List,Set,Tuple,Dict)
+=>There are 2 types of membership oparators are available
+in, not in
+in => Returns True if the given object present in the specified collection
+not in => Returns True if the given object not present in the specified collection
 list = [1,2,3]
-print(1 in list)
+print(1 in list) =>True
 
 
 
 
 Operator precedence
 --------------------
-()
+=>If multiple operators present then which operator will be evaluated first is decided by operator precedence
+ex:
+print(3+10*2)=>23
+(),**,~,-(unary minus operator),*,/,%,//,+,-,<<,>>,&,^,|,>,>=,<,<=,==,!=,=,+=,-=,*=,is,is not,in,not in,not,and,or
 
 
-
-
-
-
-
+Note
+------------
 Unary operatos(one argument)~
 Binary operator(two arguments) x+y
 Ternary operator(three arguments)

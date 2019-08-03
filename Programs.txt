@@ -1,0 +1,9 @@
+1.Write a program to find area of circle?
+hint:pi*r**2
+Ans:
+from math import pi
+r = 4
+a = pi*r**2
+print("Area of Circle",a)
+
+

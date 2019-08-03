@@ -1,0 +1,53 @@
+Module
+-------
+=>A Module is collection of classes,functions,variables
+=>If you want to use any module, first you have to import that module
+=>once you import a  module then you can call any member of that module
+syntax:
+import module
+print(module.member)
+here member means=>function,variable
+print(module.function())
+print(module.variable)
+
+=>you can create alias name by using as key word
+=>once you create alias name, by using that we can access functions and variables of that module
+import module as alias
+print(alias.member)
+print(alias.function())
+print(alias.variable)
+
+=>You can import a particular member of a module explicitely as follows
+=>If you import a member explicitely then it is not required to use module name while accessing 
+from module import member
+print(function())
+print(variable)
+
+
+=>There are tons of modules rae there in Python
+ex:
+math
+
+1.math
+---------
+important variables of math module
+-----------------------------------
+pi = > 3.14
+e => 2.71
+inf => infinity
+nan => not a number
+
+functions of math module
+---------------------------------
+sqrt()
+pow()
+ceil()
+floor()
+gcd()
+trunc()
+sin()
+cos()
+tan()
+
+
+
