@@ -1,47 +1,94 @@
-Flow Control:
+Flow Control
 -------------
-3 types
-1.Conditional/selection statements:
------------------------------------
-if
-if-else
-if-elif-else
-identation
-if conadition:
-   stmts
-2.Iterative/Looping  statements:
------------------------
-for
-while
+=>Flow control describes the order in which statements will be executed at runtime
+=>There are 3 types of Control Flow statements
+1.Conditional/Selection Statements
+3.Transfer Statements
+2.Iterative/Looping  statements
 
-for loop:
-for eachelement in sequence:
-  do some action
+
+1.Conditional/Selection Statements
+------------------------------------
+1.if
+Syntax:
+if condition:
+  statement-1
+  statement-2
+  statement-3
+note: if condition is true then statements will be executed
+ex:
+name=input("please enter your name")
+if name=="krish":
+  print("my name is",name)
+
+2.if-else
+Syntax:
+if condition:
+  Action-1
+else:
+  Action-2
+Note:
+=>if condition is true then action-1 will be executed otherwise action-2 will be executed
+=>here else part is optional
 ex1:
-s=eval(input("enter your name"))
-i=0
-for x in s:
-  if i!=0:
-    print("the character present at",i,"index is",x)
-  i=i+1
-ex2:can you please display krishna for 10 times using for loop
-for i in range(10):
-  print("krishna")
-ex3: print 10 to 1 in descending order
-for x in range(10,0,-1) # here -1 means everytime decrement by 1
-  print(x)
+name=input("please enter your name")
+if name=="krish":
+  print("my name is",name)
+else:
+  print("you didn't enter name as krish")
 
 
-while loop:
+3.if-elif-else
+Syntax:
+if condition1:
+  Action-1
+elif condition2:
+  Action-2
+elif condition3:
+  Action-3
+else:
+  Default Action
+Note:Based on condition the corresponding Action will be executed
+ex1:
+name=input("please enter your name")
+if name=="krish":
+  print("my name is",name)
+elif name=="tejesh":
+  print("your friend",name)
+elif name=="pradeep":
+  print("your friend",name)
+else:
+  print("hey Python")
+
+
+
+2.Iterative/Looping  statements
+-----------------------------------
+=>If you want to execute a group of statements multiple times then you should go for iterative statements
+=>There are two types of iterative statements
+1.for
+2.while
+
+1.for loop
+------------
+=>If you want to execute some action for every element present in some sequence(it may be string or collection) then you should go for  for lop
+syntax:
+for <eachelement> in <sequence>:
+  do some action
+ex1: to print characters present in the given string
+s="krishna maram"
+for c in s:
+  print(c) 
+
+
+
+2.while loop
+----------------
+=>If we want to execute a group of statements iteratively until some condition false, then you should go for while loop
+syntax:
 while condition:
   body
-
-ex1:
-x=1
-while x<=10:
-  print(x)
-  x+=1 
-ex2:
+ex1: to print numbers from 1 to 10 by using while loop
 name=""
 pwd=""
 while name!="krishna" and pwd!="maram":
@@ -49,123 +96,85 @@ while name!="krishna" and pwd!="maram":
   pwd=input("enter pwd")
 print("done")
 
-Infinite loops:
+
+Infinite loops
+------------------
 i=0
 while True:
   i=i+1
   print("Hello:",i)
 
-Nested loops:
+
+Nested loops
+--------------------
 for i in range(4):
   for j in range(4):
-    print("i={} and j={}.format(i,j))
-output: 4*4 =16 lines of code we can see
+    print("i={} and j={}".format(i,j))
+Note: 4*4 =16 lines of code we can see
 
-ex6:
-n=int(input("enter the number of rows"))
-for i in range(1,n+1): # i represent row number
-  for j in range(1,i+1): # j represents the number of  *
-    print("*",end=" ")
-  print()
-ex7:
-n = int(input("enter the number of rows"))
-for i in range(n):
-      print("* "*n)
-  or 
-n = int(input("enter the number of rows"))
-for i in range(n): # row number
-  for j in range(n): # number of *
-      print("*",end=" ")
-  print()
 
-ex8:
-n = int(input("enter the number of rows"))
-for i in range(1,n+1): # i represents row number
-      print("* "*i)
-3.Transfer Statements:
-----------------------
+
+
+
+3.Transfer Statements
+--------------------------
 break
 continue
 pass
 
-break:
-----------
-=>Based on some condition if we want to break loop execution then we should go for "break" statement
+1.break
+---------
+=>You can use break statement inside loops to break loop execution based on some condition
 ex1:
-cart=[10,20,600,30,60,40]
+cart=[10,20,300,40,50]
 for item in cart:
-  if item > 500:
+  if item > 250:
     print("sorry for this item, insurance is required")
     break
   print("processing item:",item)
 
 
-
-ex2:
-i=0
-while True:
-  print("hello")
-  i=i+1
-  if i==5:
-    break
-
-
-continue:
----------
-=>continue statement is used in while loop to skip current iteration and continue next iteration
-
-ex1:
+2.continue
+------------
+=>You can use contnue  statement to skip current iteration and continue next iteration
 for i in range(10):
   if i%2==0:
     continue
   print(i)
 
-ex2:
-cart=[10,20,600,30,60,40]
+ex1:
+cart=[10,20,300,40,50]
 for item in cart:
-  if item > 500:
+  if item > 250:
     print("sorry for this item, insurance is required")
     continue
   print("processing item:",item)
 
 
 
-Loops with else statement:
-for-else
-while-else
-try-except-else-finally 
+Loops with else statement/block
+----------------------------------
+=>Inside loop execution,if break statement not executed,then only else part will be executed
+
+1.for-else
+2.while-else
+3.try-except-else-finally 
 ex1:
-cart=[10,20,600,30,60,40]
+cart=[10,20,30,40,50]
 for item in cart:
-  if item > 500:
+  if item > 250:
     print("sorry for this item, insurance is required")
     break
   print("processing item:",item)
 else:
   print("congrats all items processed succesfully")
 
-
 note: here else means loop without break
 
 
-1.When do use for loop and while loop?
-=>if you know number of iterations in advance then use for loop where as 
-=>execute body for every time in the given sequence=>then go for   "for loop"
-for x in range(10):
-  body
-=>execute body as long as some condition is true => then go for "while" loop
-while condition:
-  body
-2.How to exit from the loop?
-using "break" statement
-3.How to skip current iteration and continue next iteration?
-using continue statement
-4.when else part will be executed?
-if loop executed without break
-
-
-pass statement:
-===============
+pass statement
+-------------------
+In our programming syntactically if block is required which won't do anything then you can define that empty block with pass keyword
 =>it is an empty/null statement
 =>it won't do anything
 =>pass is a keyword in python

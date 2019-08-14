@@ -1,0 +1,61 @@
+input()
+-------------
+=>input() function can be used to read data directly in our required format. We are not required to perform type casting
+
+Reading dynamic input from the keyboard
+---------------------------------------------------
+ex:
+x=input("enter the value")
+type(x)
+print(x)
+=>it take default as a string, we need to use type casting
+
+How to read multiple values from the keyboard in a single line:
+---------------------------------------------------------------
+=>read two int values from the keyboard which are specified with space seperation and print sum
+a,b=[int(x) for x in input("enter two values").split()]
+print("sum is",a+b)
+=>read two float values from the keyboard which are specified with , seperation and print sum
+a,b=[float(x) for x in input("enter two values").split(',')]
+print("sum is",a+b)
+
+Note
+------
+split() function can take space as seperator by default,but we can pass anything as seperator
+ 
+eval()
+------
+=>eval() function take a String and evaluate the result
+ex1:
+x=eval("10+20+30")
+print(x)
+
+ex2:
+x=eval(input("enter expression"))
+print(x)
+
+ex3:
+a,b=[eval(x) for x in input("enter two values").split(",")]
+print(type(a))
+print(type(b))
+print(a)
+print(b)
+
+=>eval() can evaluate the input to list,tuple,set etc based the provided input
+x=eva(input("enter list"))//list=[1,2,3,4,5]
+print(type(x))
+print(x)
+
+
+
+
+
+
+
+
+
+
+
+
+
+

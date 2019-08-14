@@ -1,3 +1,47 @@
+1.What is the difference between del and None statements?
+=>del is a key word is used to delete variable if it is no longer required
+x=10
+print(x)
+del x
+print(x)
+=>in the case del, the variable will be removed and we cannot access that variable,but in the case None assignment the variable won't be removed
+but the corresponding object is eligible for Garbage Collection. Hence after assigning with None value, we can access that variable
+x=10
+print(x)
+x=None
+print(x)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.When do use for loop and while loop?
+=>if you know number of iterations in advance then use for loop where as 
+=>execute body for every time in the given sequence=>then go for   "for loop"
+for x in range(10):
+  body
+=>execute body as long as some condition is true => then go for "while" loop
+while condition:
+  body
+2.How to exit from the loop?
+using "break" statement
+3.How to skip current iteration and continue next iteration?
+using continue statement
+4.when else part will be executed?
+if loop executed without break
+
+
+
+
 1.what is the difference between shallow copy and deep copy?
 =>The process of creating duplicate object is called cloning/creating the copy
 =>if the original object does not contain any nested objects then we should go for shallow cloning

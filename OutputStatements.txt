@@ -1,0 +1,61 @@
+We can use print() function to display output
+Case 1:print() function without any arguments
+Just it prints a new line character
+syntax:
+print
+ex1:
+print()
+
+Case 2:print() function with arguments
+syntax:
+print(string)
+ex1:
+print("krishna")
+print("maram")
+
+Case 3:print() function with variable number of arguments
+a,b,c=10,20,30
+print("the values are:",a,b,c)
+By default output values are seperated by space. If we want we can specify seperator by using "sep" attribute
+print("the values are:",a,b,c,sep=':')
+
+Case 4: print() function  with end attribute
+the default value for end attribute is \n, which is nothing but new line character
+print("krishna",end='')
+print("maram",end='')
+print("DevOps")
+
+Case 5: print() function with arguments as object statement
+syntx:
+print(object)
+here object means list,tuple,set etc 
+ex1:
+l=[1,2,3,4,5]
+print(l)
+
+Case 6:print() function with string and any number of arguments
+Syntax:
+print(String,variable list)
+ex:
+n=227
+print("krishn's number is",n)
+
+Case 7:print() function with formatted string
+syngtax:
+print("formatted string" %(variable list))
+%i=>int type
+%d=>int type
+%f=>float type
+%s=>string type
+ex:
+a=10
+b=20
+print(" a value %i and b value %i:" %(a,b))
+
+
+Case 8:print() function with replacement operator i.e {}
+firstname="krishna"
+lastname="maram"
+print("my fisrtname is {0} and lastname is {1}".format(fisrtname,lastname))
+
+

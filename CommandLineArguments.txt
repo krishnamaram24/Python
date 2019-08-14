@@ -1,16 +1,49 @@
-The arguments which are provided by command is called command line arguments
-
-argv=>is a list type=>is a variable available in sys module
-
+=>The arguments which are passing at the time of execution are called Command Line Arguments
+=>argv is a list type,is a variable available in sys module
+Note
+---------
+=>argv[0] represent Name of Program, but not first Command Line Argument. argv[1] represent first Command Line Argument
+=>to check type of argv from sys
 from sys import argv
 print(type(argv))
-print("the number of command line arguments:",len(argv))#here len() is a function
+
+Case1
+----------
+=>usually space is seperator bteween command line arguments. If our command line argument itself contains space then should enclose double quotes(but 
+not single quotes)
+ex:
+form sys import argv
+print(argv[1])
+
+$python test.py Krishna maram   => krishna
+$python test.py 'krishna maram' => 'krishna
+$python test.py "krishna maram" => krishna maram
+
+Case2
+------------------
+=>Within the python program command line arguments are available in the string form. Based on our requirement,we can convert into corresponding type by using
+type casting methods
+from sys import argv
+print("sum",int(argv[1]+argv[2]))
+$python test.py 10 20
+
+
+Note 
+-----
+=>In Python there is argparse module to parse command line arguments and display some help messages whenever end user enters wrong input
+
+
+
+
+1.Write a program to display command line arguments
+from sys import argv
+print("the number of command line arguments:",len(argv))
 print("the list of command line arguments:",argv)
 print("the command line arguments one by one:")
 for x in argv:
   print(x)
 
-Q)Read a group of int values from the keyboard as cmd line arguments and print sum
+2.Writa a program to read a group of int values from the keyboard as cmd line arguments and print sum
 from sys import argv
 args = argv[1:]
 sum = 0
