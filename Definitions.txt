@@ -58,6 +58,13 @@ Function
 ---------- 
 A group of statements/lines with some name is called a function
 
+
+class 
+---------
+
+Method
+--------
+
 Module
 ----------------
 A group of functions,classes,variables  saved to a file,is called module
@@ -70,7 +77,12 @@ Library
 ---------------
 A group of packages is nothing but library
 
+Framework
+-----------------
 
+
+
+What is data types vs abstract data types vs data structures?
 
 
 

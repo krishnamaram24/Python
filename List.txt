@@ -1,97 +1,115 @@
-List data structure:
-================
+List data structure
+=====================
 =>List is used to represent a group of elements as a single entity
 =>insertion order is preserved
 =>duplicate objets are allowed
-=>heterogeneous objects
-=>mutable
+=>heterogeneous objects are allowed
+=>mutable(we can change the content)
+=>List id dynamic because based on our requirement we can increase the size and decrease the size
+=>In List the elements will be placed within square brackets and with comma seperator
+ 
 
-creation of list:
+creation of list
 ------------------------
-to create empty list:
-1.l=[]
-2.l=[1,2,3,4]
+1.to create empty list
+l=[]
+print(l)
+typle(l)
+
+2.I we know elements already then we can create list as follows
+l=[1,2,3,4]
+
 3.with dynamic input:
-list=eval(input("enter some list"))
-ex1:
 l=eval(input('enter some list'))
 print(l)
 print(type(l))
+
 4.with list(sequence) function
-ex1:
 l=list('krishna') or l=list(range(4))
 print(l)
+
 5.split() function
-ex1:
 s="krishna software solutuions"
 l=s.split()
 print(l)  
+
 6.Nested lists
 [1,2,3,[3,4,5]]
 
-Accessing elements of List:
-------------------------
-by using index:
+
+
+
+Accessing elements of List
+---------------------------
+You can access elements of the list either by using index or by slicing operator
+1.by using index
 l=[1,2,3,4,[5,6,7]]
 print(l[4][1])
-
 l=[0,1,2,list('krishna')]
 print(l[3][2])
 
 
-by using slice operator
+2.by using slice operator
 l=1,2,3,4]
 print(l[0:5:1])
 
 
 
-Traversing elements of a list:
--------------------------------
- using while loop:
-l=[10,20,30,40,50]
+List is mutable
+---------------------
+l1=[1,2,3,4]
+print(l1)
+l[1]=11
+print(l1)
+
+
+Traversing elements of a list
+------------------------------
+The sequencial access of each element in the list is called traversal
+1.Byusing while loop
+l=[0,1,2,3,4,5,6,7,8,9]
 i=0
 while i<len(l):
   print (l[i])
   i=i+1
 
-using for loop:
+2.By using for loop
 l=[10,20,30,40,50]
 for x in l:
    print(x)
 
 
 
-Important functions of a list:
+Important functions of a list
 ----------------------------------
 l=[1,2,3,4,4,5]
 1.len()
 print(len(l))
+
 2.count()
 print(l.count(4))
+
 3.index()=>to display first occurance of element
 print(l.index(4))
 
 
-Manipulating(changing content) elements of the list:
---------------------------------------------------
+Manipulating(changing content) elements of the list
+--------------------------------------------------------
 1.append() method
-ex1:
+You can use append() function to add item at the end of the list
 l=[]
 l.append("sunny")
 l.aapend("chinny")
 print(l)
-ex2:
-l=[]
-for i in range(101):
-  if i%10==0:
-    l.append(i)
-print(l)
+
 2.insert() function
+to insert item at specified index position
 l=[1,2,3,4,5]
 l.insert(1,234)
 l.insert(30,2234)
 l.insert(-30,2324)
 print(l)
+
 3.extend() function
 l1=[1,2,3]
 l2=[4,5,7]
@@ -135,22 +153,27 @@ l.sort()
 l.sort(reverse=True)=>print in reverse order
 
 
-Aliasing:
+Aliasing
 -----------
+=>The process of giving another reference variable to the existing list is called aliasing
 =>Aliasing is not recommended
-the process of giving another reference variable to the existing reference variable to the list
+
 x=[1,2,3,4,5]
 y=x
 print(id(x))
 print(id(y))
 
 
+
+Cloning
+--------------------
+The process of creating exactly duplicate independent object is called cloning
 Shallow copy vs deep copy: cloned object
 --------------------------
 shallow copy=>pointing to same object
 deep copy=>pointing to different objects
 
-we can create cloned object in tow ways:
+we can create cloned object in tow ways
 ------------------------------------------
 
 1.by using slice operator
@@ -188,6 +211,32 @@ print(x==z)
 
 print(x is y)//False
 note: is operator always compares object address
+
+
+
+Using Mathematical operators for list objects
+-----------------------------------------------
+
+
+
+Membership Operators
+-------------------------------
+
+
+
+
+
+
+List Comprehensions
+------------------------------
+syntax:
+list=[expression for item in list if condition]
+ex:
+l=[x*x for x in range(1,11)]
+print()
+for i in l:
+  print(i)
+
 
 
 

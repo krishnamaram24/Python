@@ -1,0 +1,120 @@
+Tuple
+--------
+=>Tuple is exactly same as List except that it is immutable.
+1.Immutable
+2.Insertion order is preserved
+3.Duplicates are allowed
+4.Heterogeneous objects are allowed
+5.You can represent Tuple elements within paranthesis and with comma seperator,here paranthesis are optional but recommended to use
+
+ex:
+l=1,2,3,4,5
+or
+l=(1,2,3,4,5)
+print(l)
+print(type(l))
+
+Tuple Creation
+------------------
+1.creation of empty tuple
+t=()
+
+2.creation of single valued tuple
+t=(10,)
+
+3.creation of multi values tuple
+t=(10,20,30)
+
+4.By using tuple() function
+l=[1,2,3,4,5]
+t=tuple(l)
+print(t)
+
+
+
+Accessing elements of Tuple
+--------------------------------------
+1.by using index
+t=(1,2,3,4,5)
+print(t[1])
+
+2.By using slice operator
+t=(1,2,3,4,5)
+print([2:5])
+
+
+Tuple is immutable
+--------------------------
+t=(1,2,3,4,5)
+t[1]=22
+
+
+
+Mathematical operators for Tuple
+--------------------------------------
+1.concatination operator(+)
+t1=(1,2,3,4,5)
+t2=(6,7,8,9)
+print(t1+t2)
+
+2.repetition operator
+t1=(1,2,3)
+t2=t1*3
+print(t2)
+
+
+
+Important functions of Tuple
+------------------------------------
+1.len()
+To return number of elements present in the tuple
+t=(1,2,3)
+print(len(t)
+
+2.count()
+to return the number of occurences of a given element in the tuple
+print(t.count(2))
+
+3.index()
+
+
+4.sorted()
+5.min()
+6.max()
+
+7.cmp()
+
+
+
+
+
+Tuple Packing and Unpacking
+------------------------------------
+1.Packing
+You can create a tuple by packing a group of variable
+a=1
+b=2
+c=3
+t=a,b,c
+print(t)
+
+here a,b,c are packed into a tuple
+
+2.Unpacking
+t=(1,2,3)
+a,b,c=t
+print(a,b,c)
+
+
+
+
+Tuple comprehension
+-------------------------
+t=(x**2 for x in range(1,6))
+print(type(t)
+print(t)
+for i in t:
+  print(i)
+
+
+

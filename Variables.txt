@@ -1,0 +1,19 @@
+Varaibles
+-------------
+
+
+Rules to declare variable
+------------------------------
+
+
+
+Types of variables
+------------------------
+
+
+1.Global varaibles
+The variables which are declared outside of function are called global variables
+these variables can be accessed in all functions of that module
+2.Local variables
+The variables which are declared inside a function are called local variables
+these variables can be accessed only for the function in which you declared it. i.e from outside of function we cannot access

@@ -1,0 +1,68 @@
+Set
+-------
+1.if you wnat to represent a group of unique values as a single entity then you should go for Set
+2.Duplicates are not allowed
+3.Insertion order is not preserved bu you can sort the elements
+4.indexing and slicing not allowed for Set
+5.Heterogeneous elements are allowed
+6.Mutable
+7.You can represent Set elements within curly braces and with comma seperation
+8.You can apply mathematical operations like union,intersection,difference etc on set objects
+
+
+Creation of set objects
+---------------------------------
+
+1.creating empty set
+s=set()
+print(s)
+print(type(s))
+
+2.creating set with elements
+s={1,2,3}
+print(s)
+print(type(s))
+
+3.You can create set objects by using set() function
+syntax:
+s=set(any sequence)
+l=[1,2,3]
+s=set(l)
+print(s)
+
+
+
+
+Important functions of set
+-----------------------------------
+1.add()
+2.update()
+3.copy()
+4.pop()
+5.remove()
+6.discard()
+7.clear()
+
+
+Mathematical operations on the set
+--------------------------------------
+1.union()
+2.intersection
+3.difference()
+4.symmetric_difference()
+
+
+Membership Operators (in , not in)
+-------------------------------------------
+s=set("krishna")
+print(s)
+print('k' in s)
+
+
+
+
+Set Comprehension
+-------------------------
+s={x*x for x in range(5)}
+print(s)
+

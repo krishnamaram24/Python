@@ -1,3 +1,10 @@
+https://www.tutorialspoint.com/data_structures_algorithms/index.htm
+https://www.udemy.com/algorithms-and-data-structures-in-python/
+
+
+
+
+
 Official website for Python
 https://www.python.org/
 
