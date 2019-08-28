@@ -64,3 +64,17 @@ How to become a good Programmer
 
 
 
+Learning Levels
+============================
+1.Primary
+
+2.Secondary
+
+3.Higher
+
+
+4.Master
+
+
+5.Scientist
+
