@@ -1,0 +1,14 @@
+
+References
+===================================
+Official website for Python
+https://www.python.org/
+
+Package management Software
+https://pip.pypa.io/en/stable/
+
+Repository for Python Packages
+https://pypi.org/
+
+
+
