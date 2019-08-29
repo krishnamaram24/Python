@@ -83,45 +83,46 @@ Higher
 
 5.Packages
 
-6.Regular expressions
 
-7.File handling(xls,csv,json,xml)
 
-8.Exception handling(in-built Exceptions)
 
-9.Python Logging
+Expert
+======================
+1.Regular expressions
 
-10.Multi threading
+2.File handling(xls,csv,json,xml)
+
+3.Exception handling(in-built Exceptions)
+
+4.Python Logging
+
+5.Multi threading
+
+6.Python for  Administration
+
+7.Socket/Network programming
+
+8.web scrapping
+
+9.PDBC(Python Data Base Connectivity)
+
 
 Master
 ===============================
-1.Python for  Administration
-
-2.Socket/Network programming
-
-3.web scrapping
-
+1.Python for Desktop apps
+2.Python for Gaming
+3.Python for Testing
 4.Python for Web Apps(Python web frameworks)
+5.Python for Data Science(Python libraries)
+6.Python for IoT
+7.Python for Machine Learning
+8.Python for BigData
+9.Python for Cloud Computing
+10.Python for Artificial Intelligence
 
-5.Python for Desktop apps
 
-6.Python for Data Science(Python libraries)
 
-7.Python for IoT
 
-8.Python for Machine Learning
-
-3.Python for BigData
-
-4.Python for Cloud Computing
-
-9.Python for Artificial Intelligence
-
-10.Python for Testing
-
-11.Python for Gaming
-
-12.PDBC(Python Data Base Connectivity)
 
 Scientist
 ===========================
