@@ -84,10 +84,8 @@ Higher
 5.Packages
 
 
-
-
-Expert
-======================
+Advanced
+============================
 1.Regular expressions
 
 2.File handling(xls,csv,json,xml)
@@ -98,6 +96,11 @@ Expert
 
 5.Multi threading
 
+
+Expert
+======================
+
+
 6.Python for  Administration
 
 7.Socket/Network programming
@@ -106,12 +109,15 @@ Expert
 
 9.PDBC(Python Data Base Connectivity)
 
+1.Python for Desktop apps
+
+2.Python for Gaming
+3.Python for Testing
 
 Master
 ===============================
-1.Python for Desktop apps
-2.Python for Gaming
-3.Python for Testing
+
+
 4.Python for Web Apps(Python web frameworks)
 5.Python for Data Science(Python libraries)
 6.Python for IoT
