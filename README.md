@@ -165,6 +165,22 @@ Scientist
 Develop libraries, frameoworks and deveop softwares/tools and release to market
 
 
+References
+===================================
+Official website for Python
+https://www.python.org/
+
+Package management Software
+https://pip.pypa.io/en/stable/
+
+Repository for Python Packages
+https://pypi.org/
+
+
+
+
+
+
 
 
 
