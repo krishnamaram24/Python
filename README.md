@@ -66,15 +66,73 @@ How to become a good Programmer
 
 Learning Levels
 ============================
-1.Primary
+Primary
+======================
+1.History(versions)
+2.flavors
+3.features
+4.applications
+5.Limitations
+6.environment setup
+7.Reserved Words
+8.Identifiers
+9.Data types
+10.Variables
+11.Operators
+12.Constants
+13.Flow control(conditional stmts,iterative stmts)
 
-2.Secondary
+Secondary
+==============================
+1.Data structures
+2.Algorithms(Searching and Sorting techniques)
+3.Input and Output Statements
+4.Escape characters
+5.comments
+6.Command Line Arguments
 
-3.Higher
+Higher
+=======================
+1.Functions(generators and decorators)
+2.OOPS	
+3.Design Patterns
+4.Modules
+5.Packages
+6.Regular expressions
+7.File handling(xls,csv,json,xml)
+8.Exception handling(in-built Exceptions)
+9.Python Logging
+10.Multi threading
+
+Master
+===============================
+1.Python for  Administration
+2.Socket/Network programming
+3.web scrapping
+4.Python for Web Apps(Python web frameworks)
+5.Python for Desktop apps
+6.Python for Data Science(Python libraries)
+7.Python for IoT
+8.Python for Machine Learning
+3.Python for BigData
+4.Python for Cloud Computing
+9.Python for Artificial Intelligence
+10.Python for Testing
+11.Python for Gaming
+12.PDBC(Python Data Base Connectivity)
+
+Scientist
+===========================
+Develop libraries, frameoworks and deveop softwares/tools and release to market
 
 
-4.Master
 
 
-5.Scientist
+
+
+
+
+
+
+
 
