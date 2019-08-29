@@ -33,41 +33,43 @@ Primary
 
 2.flavors
 
-3.features
+3.Libraries
 
-4.applications
+4.Frameworks
 
-5.Limitations
+5.features
 
-6.environment setup
+6.applications
 
-7.Reserved Words
+7.Limitations
 
-8.Identifiers
+8.environment setup
 
-9.Data types
+9.Reserved Words
 
-10.Variables
+10.Identifiers
 
-11.Operators
+11.Data types
 
-12.Constants
+12.Variables
 
-13.Flow control(conditional stmts,iterative stmts)
+13.Operators
+
+14.Constants
+
+15.Flow control(conditional stmts,iterative stmts)
 
 Secondary
 ==============================
-1.Data structures
+1.Data structures and  Algorithms
 
-2.Algorithms(Searching and Sorting techniques)
+2.Input and Output Statements
 
-3.Input and Output Statements
+3.Escape characters
 
-4.Escape characters
+4.comments
 
-5.comments
-
-6.Command Line Arguments
+5.Command Line Arguments
 
 Higher
 =======================
@@ -123,7 +125,9 @@ Master
 
 Scientist
 ===========================
-Develop libraries, frameoworks and deveop softwares/tools and release to market
+1.Develop libraries
+2.Develop Frameoworks 
+3.Deveop softwares/tools and release to market
 
 
 References
