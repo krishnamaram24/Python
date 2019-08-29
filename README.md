@@ -84,7 +84,7 @@ Higher
 5.Packages
 
 
-Advanced
+Intermediary
 ============================
 1.Regular expressions
 
