@@ -13,17 +13,6 @@ Like wise all computer  laguages are also made of several elements like
 
 2.Data types
 
-3.Variables
-
-4.Operators
-
-5.Constants
-
-6.Decition making statements
-
-7.Looping statements
-
-
 
 Learning Levels
 ============================
