@@ -48,9 +48,10 @@ Primary
 
 15.Flow control(conditional stmts,iterative stmts)
 
+
 Secondary
 ==============================
-1.Data structures and  Algorithms
+1.Functions(generators and decorators)
 
 2.Input and Output Statements
 
@@ -60,69 +61,74 @@ Secondary
 
 5.Command Line Arguments
 
+6.Modules
+
+7.Packages
+
+
 Higher
 =======================
-1.Functions(generators and decorators)
+1.OOPS	
 
-2.OOPS	
+2.Regular expressions
 
-3.Design Patterns
+3.File handling(xls,csv,json,xml)
 
-4.Modules
+4.Exception handling(in-built Exceptions)
 
-5.Packages
-
-
-Intermediary
-============================
-1.Regular expressions
-
-2.File handling(xls,csv,json,xml)
-
-3.Exception handling(in-built Exceptions)
-
-4.Python Logging
+5.Python Logging
 
 5.Multi threading
 
 
+Intermediary
+============================
+1.Data structures and  Algorithms
+2.Design Patterns
+
+
 Professional
 ======================
+1.Python for  Administration
 
+2.Socket/Network programming
 
-6.Python for  Administration
+3.web scrapping
 
-7.Socket/Network programming
+4.PDBC(Python Data Base Connectivity)
 
-8.web scrapping
+5.Python for Desktop apps
 
-9.PDBC(Python Data Base Connectivity)
+6.Python for Gaming
 
-1.Python for Desktop apps
+7.Python for Testing
 
-2.Python for Gaming
-3.Python for Testing
 
 Master
 ===============================
 
+1.Python for Web Apps(Python web frameworks)
 
-4.Python for Web Apps(Python web frameworks)
-5.Python for Data Science(Python libraries)
-6.Python for IoT
-7.Python for Machine Learning
-8.Python for BigData
-9.Python for Cloud Computing
-10.Python for Artificial Intelligence
+2.Python for Data Science(Python libraries)
 
+3.Python for IoT
 
+4.Python for Machine Learning
+
+5.Python for BigData
+
+6.Python for Cloud Computing
+
+7.Python for Artificial Intelligence
 
 
 
 Scientist
 ===========================
 1.Develop libraries
+
 2.Develop Frameoworks 
+
 3.Deveop softwares/tools and release to market
 
 
