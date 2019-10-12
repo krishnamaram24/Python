@@ -18,6 +18,9 @@ Learning Levels
 ============================
 Primary
 ======================
+
+part 1
+---------
 1.History(versions)
 
 2.flavors
@@ -34,6 +37,9 @@ Primary
 
 8.environment setup
 
+part 2
+------------
+
 9.Reserved Words
 
 10.Identifiers
@@ -48,12 +54,34 @@ Primary
 
 15.Flow control(conditional stmts,iterative stmts)
 
+part 3
+--------------
+
+1.Input and Output Statements
+
+2.Escape characters
+
+3.comments
+
+4.Command Line Arguments
+
+5.compilation/decompilation, compiler/interpretor
+
+1.Logical Programs
+
+2.Data structures and  Algorithms
+
+
 
 Secondary
 ==============================
 1.Functions(generators and decorators)
 
 2.OOPS	
+
+3.Design Patterns
+
+7.Exception handling(in-built Exceptions)
 
 3.Modules
 
@@ -66,41 +94,31 @@ Secondary
 
 Higher
 =======================
-1.Input and Output Statements
-
-2.Escape characters
-
-3.comments
-
-4.Command Line Arguments
-
-5.Regular expressions
-
 6.File handling(xls,csv,json,xml)
 
-7.Exception handling(in-built Exceptions)
+8.Python for Cloud computing(boto3 library)
 
-8.Python Logging
-
-9.Multi threading
-
+9.python for Web applications(DJango framework)
 
 Intermediary
 ============================
-1.Logical Programs
 
-2.Data structures and  Algorithms
+5.Regular expressions(re)
 
-3.Design Patterns
+8.Python Logging(logger)
+
+9.Multi threading program(thread)
+
+2.Socket/Network programming(socket)
+
+
+3.web scrapping
+
 
 
 Professional
 ======================
 1.Python for  Administration
-
-2.Socket/Network programming
-
-3.web scrapping
 
 4.PDBC(Python Data Base Connectivity)
 
@@ -113,30 +131,28 @@ Professional
 
 Master
 ===============================
-
-1.Python for Web Apps(Python web frameworks)
-
 2.Python for Data Science(Python libraries)
-
-3.Python for IoT
 
 4.Python for Machine Learning
 
-5.Python for BigData
-
-6.Python for Cloud Computing
-
 7.Python for Artificial Intelligence
 
+5.Python for BigData
+
+3.Python for IoT
 
 
 Scientist
 ===========================
-1.Develop libraries
+1.Develope modules
 
-2.Develop Frameoworks 
+2.Develop libraries
 
-3.Deveop softwares/tools and release to market
+3.Develop Frameoworks 
+
+4.Develop packages 
+
+5.Deveop softwares/tools and release to market
 
 
 References
