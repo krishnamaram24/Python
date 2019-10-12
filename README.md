@@ -53,38 +53,45 @@ Secondary
 ==============================
 1.Functions(generators and decorators)
 
-2.Input and Output Statements
+2.OOPS	
 
-3.Escape characters
+3.Modules
 
-4.comments
+4.Libraries
 
-5.Command Line Arguments
+5.Frameworks
 
-6.Modules
-
-7.Packages
+6.Packages
 
 
 Higher
 =======================
-1.OOPS	
+1.Input and Output Statements
 
-2.Regular expressions
+2.Escape characters
 
-3.File handling(xls,csv,json,xml)
+3.comments
 
-4.Exception handling(in-built Exceptions)
+4.Command Line Arguments
 
-5.Python Logging
+5.Regular expressions
 
-5.Multi threading
+6.File handling(xls,csv,json,xml)
+
+7.Exception handling(in-built Exceptions)
+
+8.Python Logging
+
+9.Multi threading
 
 
 Intermediary
 ============================
-1.Data structures and  Algorithms
-2.Design Patterns
+1.Logical Programs
+
+2.Data structures and  Algorithms
+
+3.Design Patterns
 
 
 Professional
