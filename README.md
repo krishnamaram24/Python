@@ -2,16 +2,9 @@ Project Title
 ================================
 This Project implemeted to guide how to improve Computer language Skills
 
-
-
 All Human Interface languages have several elements like Grammar, parts of speech 
 
-Like wise all computer  laguages are also made of several elements like
-
-
-1.Syntax
-
-2.Data types
+Like wise all computer  laguages are also made of several elements like 1.Syntax 2.Data types
 
 
 Learning Levels
@@ -25,20 +18,18 @@ part 1
 
 2.flavors
 
-3.Libraries
+3.features
 
-4.Frameworks
+4.applications/implications
 
-5.features
+5.Limitations
 
-6.applications
-
-7.Limitations
-
-8.environment setup
+6.Psuedo code
 
 part 2
 ------------
+
+6.environment setup(yum,pip.pypi,virtual env)
 
 9.Reserved Words
 
@@ -67,10 +58,11 @@ part 3
 
 5.compilation/decompilation, compiler/interpretor
 
-1.Logical Programs
+6.Python Virtual Machine(PVM) Architecture
 
-2.Data structures and  Algorithms
+7.Memory management
 
+8.Garbage Collection
 
 
 Secondary
@@ -78,10 +70,6 @@ Secondary
 1.Functions(generators and decorators)
 
 2.OOPS	
-
-3.Design Patterns
-
-7.Exception handling(in-built Exceptions)
 
 3.Modules
 
@@ -91,9 +79,17 @@ Secondary
 
 6.Packages
 
+7.Exception handling(in-built Exceptions)
 
-Higher
+
+
+Higher Secondary
 =======================
+1.Logical Programs
+
+2.Data structures and  Algorithms
+3.Design Patterns
+
 6.File handling(xls,csv,json,xml)
 
 8.Python for Cloud computing(boto3 library)
