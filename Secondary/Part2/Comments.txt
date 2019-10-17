@@ -1,0 +1,21 @@
+Python Comment are statements that are not part of your program. For this reason, comment statements are skipped while executing your program
+Usually we use comments for making brief notes about a chunk of code
+Comments are most important in programming so that other can understand easily while reading your program
+
+Types of comments in Python
+1.Single line comment(used for a brief and quick comment or to debug a program)
+
+to comment single line  used hash symbol(#)
+
+def main():
+  # main function
+
+
+2.Multiple Lines comment(used to note down something much more in details or to block out an entire chunk of code)
+
+to comment multiple lines used triple quotes
+def main():
+  """
+   main function
+   this is
+  """

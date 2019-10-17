@@ -1,10 +1,8 @@
 Project Title
 ================================
-This Project implemeted to guide how to improve Computer language Skills
+This Project implemeted to guide how to become eexpert Computer language
 
-All Human Interface languages have several elements like Grammar, parts of speech 
-
-Like wise all computer  laguages are also made of several elements like 1.Syntax 2.Data types
+All Human Interface languages have several elements like Grammar, parts of speech  Like wise all computer  laguages are also made of several elements like 1.Syntax 2.Data types
 
 
 Learning Levels
@@ -20,7 +18,7 @@ part 1
 
 3.features
 
-4.applications/implications
+4.applications/implications/Use cases
 
 5.Limitations
 
@@ -29,44 +27,26 @@ part 1
 part 2
 ------------
 
-6.environment setup(yum,pip.pypi,virtual env)
+1.environment setup(yum,pip.pypi,virtual env)
 
-9.Reserved Words
+2.Reserved Words
 
-10.Identifiers
+3.Identifiers
 
-11.Data types
+4.Data types
 
-12.Variables
+5.Variables
 
-13.Operators
+6.Operators
 
-14.Constants
+7.Constants
 
-15.Flow control(conditional stmts,iterative stmts)
-
-part 3
---------------
-
-1.Input and Output Statements
-
-2.Escape characters
-
-3.comments
-
-4.Command Line Arguments
-
-5.compilation/decompilation, compiler/interpretor
-
-6.Python Virtual Machine(PVM) Architecture
-
-7.Memory management
-
-8.Garbage Collection
-
+8.Flow control(conditional stmts,iterative stmts)
 
 Secondary
 ==============================
+Part 1
+--------------
 1.Functions(generators and decorators)
 
 2.OOPS	
@@ -79,63 +59,89 @@ Secondary
 
 6.Packages
 
-7.Exception handling(in-built Exceptions)
+
+part 2
+--------------
+
+1.Input and Output Statements
+
+2.Escape characters
+
+3.Comments
+
+4.Command Line Arguments
+
+5.compilation/decompilation, compiler/interpretor
+
+6.Python Virtual Machine(PVM) Architecture
+
+7.Memory management
+
+8.Garbage Collection
 
 
 
-Higher Secondary
+
+
+Higher 
 =======================
 1.Logical Programs
 
 2.Data structures and  Algorithms
+
 3.Design Patterns
 
-6.File handling(xls,csv,json,xml)
-
-8.Python for Cloud computing(boto3 library)
-
-9.python for Web applications(DJango framework)
 
 Intermediary
 ============================
 
-5.Regular expressions(re)
+Part 1
+------------------
+1.File handling(xls,csv,json,xml)
 
-8.Python Logging(logger)
+2.Python for Cloud computing(boto3 library)
 
-9.Multi threading program(thread)
+3.python for Web applications(DJango framework)
 
-2.Socket/Network programming(socket)
+Part 2
+----------
+1.Exception handling(in-built Exceptions)
 
+2.Regular expressions(re)
 
-3.web scrapping
+3.Python Logging(logger)
 
+4.Multi threading program(thread)
+
+5.Socket/Network programming(socket)
+
+6.web scrapping
 
 
 Professional
 ======================
-1.Python for  Administration
+1.Python for  Administration(System,Database,Network)
 
-4.PDBC(Python Data Base Connectivity)
+2.Python for Desktop apps
 
-5.Python for Desktop apps
+3.Python for Gaming
 
-6.Python for Gaming
+4.Python for Testing
 
-7.Python for Testing
+5.Python for DevOps
 
 
 Master
 ===============================
-2.Python for Data Science(Python libraries)
+1.Python for Data Science
 
-4.Python for Machine Learning
+2.Python for Machine Learning
 
-7.Python for Artificial Intelligence
+3.Python for Artificial Intelligence
 
-5.Python for BigData
+4.Python for BigData
 
-3.Python for IoT
+5.Python for IoT
 
 
 Scientist
