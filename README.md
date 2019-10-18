@@ -9,6 +9,8 @@ All Human Interface languages have several elements like Grammar, parts of speec
 How to become a good Programmer
 =================================
 
+1.Learn fundementals
+
 1.Take help of online platforms
 
 2.Practice
@@ -98,6 +100,22 @@ Higher
 
 6.Packages
 
+
+Intermediary
+-------------------------------
+
+Part 1
+---------
+1.Logical Programs
+
+2.Data structures and  Algorithms
+
+3.Design Patterns
+
+
+Part 2
+--------------
+
 1.Input and Output Statements
 
 2.Escape characters
@@ -113,64 +131,52 @@ Higher
 9.Python standard Library
 
 
-
-Intermediary
--------------------------------
-1.Logical Programs
-
-2.Data structures and  Algorithms
-
-3.Design Patterns
+Part 3
+----------------------
 1.File handling(xls,csv,json,xml)
+
+2.Exception handling(in-built Exceptions)
+
+3.Regular expressions(re)
+
+4.Python Logging(logger)
+
+5.Multi threading program(thread)
+
+6.Socket/Network programming(socket)
+
+7.Web Scrapping
+
+
+Professional
+-------------------------------------------
+1.Python for  Administration(System,Database,Network)
 
 2.Python for Cloud computing(boto3 library)
 
 3.python for Web applications(DJango framework)
 
+4.Python for Desktop apps
 
+5.Python for Gaming
 
-1.Exception handling(in-built Exceptions)
+6.Python for Testing
 
-2.Regular expressions(re)
+7.Python for DevOps
 
-3.Python Logging(logger)
+8.Python for BigData
 
-4.Multi threading program(thread)
+9.Python for IoT
 
-5.Socket/Network programming(socket)
+10.Python for Machine Learning
 
-6.web scrapping
+11.Python for Deep Learning
 
+12.Python for Artificial Intelligence
 
-Professional
--------------------------------------------
-2.Python for Desktop apps
+13.Python for Data Science
 
-1.Python for  Administration(System,Database,Network)
-
-
-
-3.Python for Gaming
-
-4.Python for Testing
-
-5.Python for DevOps
-
-
-
-1.Python for Data Science
-
-2.Python for Machine Learning
-
-3.Python for Artificial Intelligence
-
-4.Python for BigData
-
-5.Python for IoT
-
-
-
-5.Deveop products(modules,libraries,frameworks,softwares/tools)
+14.Deveop products(modules,libraries,frameworks,softwares/tools)
 
 
 References
@@ -178,11 +184,13 @@ References
 Official website for Python
 https://www.python.org/
 
+Repository for Python Packages
+https://pypi.org/
+
 Package management Software
 https://pip.pypa.io/en/stable/
 
-Repository for Python Packages
-https://pypi.org/
+
 
 
 
