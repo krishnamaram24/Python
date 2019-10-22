@@ -69,7 +69,7 @@ Primary
 
 Secondary
 ---------------------------
-1.environment setup(pip.pypi,virtual env,editor/IDE,interpreter(compiler + pvm),decompiler,debugger,PyUnit)
+1.environment setup(pip.pypi,virtual env,editor/IDLE/IDE,interpreter(compiler + pvm),decompiler,debugger,PyUnit)
 
 2.Reserved Words
 
