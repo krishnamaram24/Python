@@ -1,8 +1,8 @@
 Project Title
 ================================
-This Project implemeted to guide how to become eexpert Computer language
+This Project implemeted to guide how to become Pro in Python Computer Language
 
-All Human Interface languages have several elements like Grammar, parts of speech  Like wise all computer  laguages are also made of several elements like 1.Syntax 2.Data types
+All Human Interface languages have several elements like Grammar, parts of speech  Like wise all computer  laguages are also made of several elements like 1.Syntax 2.Data types...
 
 
 
