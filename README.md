@@ -150,35 +150,37 @@ Part 3
 
 Professional
 -------------------------------------------
-1.Python for  Administration(System,Database,Network)
+1.System/Network/Database Administration
 
-2.Python for Cloud computing(boto3 library)
+2.Cloud computing
 
-3.python for Web applications(DJango framework)
+3.Web Applications
 
-4.Python for Desktop apps
+4.Desktop Apps
 
-5.Python for Gaming
+5.Gaming
 
-6.Python for Testing
+6.Testing
 
-7.Python for DevOps
+7.DevOps
 
-8.Python for BigData
+8.BigData
 
-9.Python for IoT
+9.IoT
 
-10.Python for Machine Learning
+10.Machine Learning
 
-11.Python for Deep Learning
+11.Deep Learning
 
-12.Python for Artificial Intelligence
+12.Artificial Intelligence
 
-13.Python for Data Science
+13.Data Science
 
 14.Embedded Systems
 
-15.Deveop products(modules,libraries,frameworks,softwares/tools)
+15.Robotics
+
+16.Deveop products(modules,libraries,frameworks,softwares/tools)
 
 
 References
