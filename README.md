@@ -176,7 +176,9 @@ Professional
 
 13.Python for Data Science
 
-14.Deveop products(modules,libraries,frameworks,softwares/tools)
+14.Embedded Systems
+
+15.Deveop products(modules,libraries,frameworks,softwares/tools)
 
 
 References
