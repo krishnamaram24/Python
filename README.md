@@ -195,6 +195,8 @@ Package management Software
 https://pip.pypa.io/en/stable/
 
 
+pip => package installer for python
+PyPI => Python Package Index
 
 
 
