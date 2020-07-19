@@ -47,6 +47,33 @@ How to become a good Programmer
 
 18.Write Clean, Reusable, and Efficient Code
 
+Contents
+=====================
+Section 1
+Fundemetals
+
+Section 2
+Datastructures and Algorithms
+
+Section 3
+Functions
+OOPS
+
+Section 4
+Design Patterns
+
+Section 5
+Modules
+Packages
+Libfraries
+Frameworks
+
+
+
+
+
+
+
 
 Curriculum
 =====================
